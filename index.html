@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Selection Vault</title>
+  <meta name="description" content="An interactive catalogue of 3D object selection techniques for XR." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f6f5f1; --panel:#ffffff; --ink:#111318; --muted:#67707e; --line:#deded6;
+      --blue:#335cff; --blue-soft:#e9edff; --lime:#c9ef66; --orange:#ff9b54; --pink:#ff7ca9;
+      --shadow:0 12px 34px rgba(24,30,42,.08);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,system-ui,sans-serif}
+    button,input{font:inherit}
+    .topbar{position:sticky;top:0;z-index:10;background:rgba(246,245,241,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    .topbar-inner{max-width:1440px;margin:auto;padding:16px 28px;display:flex;align-items:center;gap:26px}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-size:17px;font-weight:800;letter-spacing:-.04em;white-space:nowrap}
+    .brand-mark{width:32px;height:32px;border-radius:9px;background:var(--blue);display:grid;place-items:center;color:white;font-family:"DM Mono";font-size:13px}
+    .nav{display:flex;gap:18px;margin-left:10px}
+    .nav a{font-size:13px;font-weight:700;color:#4f5762;text-decoration:none}
+    .nav a:hover{color:var(--blue)}
+    .top-actions{margin-left:auto;display:flex;align-items:center;gap:10px}
+    .small-btn,.primary-btn{border:1px solid var(--line);border-radius:9px;padding:9px 12px;background:white;cursor:pointer;font-size:12px;font-weight:800}
+    .primary-btn{background:var(--ink);border-color:var(--ink);color:white}
+    .hero{max-width:1440px;margin:0 auto;padding:66px 28px 38px;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(350px,.75fr);gap:40px;align-items:end}
+    .eyebrow{font-family:"DM Mono",monospace;color:var(--blue);font-size:11px;letter-spacing:.13em;text-transform:uppercase}
+    h1{font-size:clamp(42px,6vw,78px);line-height:.98;letter-spacing:-.075em;margin:14px 0 20px;max-width:850px}
+    .hero p{color:var(--muted);max-width:720px;font-size:17px;line-height:1.65;margin:0}
+    .hero-stat{background:var(--ink);color:white;border-radius:20px;padding:26px;box-shadow:var(--shadow)}
+    .hero-stat strong{display:block;font-size:47px;letter-spacing:-.07em;line-height:1}
+    .hero-stat span{display:block;color:#bdc4d1;margin-top:8px;font-size:13px;line-height:1.5}
+    .hero-stat .legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:23px}
+    .legend-pill{border:1px solid #3a424f;border-radius:100px;padding:6px 8px;font-size:10px;font-family:"DM Mono";color:#d6d9df}
+    .workspace{max-width:1440px;margin:0 auto;padding:0 28px 90px;display:grid;grid-template-columns:282px 1fr;gap:25px}
+    aside{position:sticky;top:81px;height:fit-content;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}
+    .filter-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+    .filter-heading strong{font-size:13px;letter-spacing:-.02em}
+    .reset{border:0;background:transparent;color:var(--blue);font-size:11px;font-weight:800;cursor:pointer}
+    .filter-group{border-top:1px solid var(--line);padding:17px 0 4px}
+    .filter-title{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-family:"DM Mono";text-transform:uppercase;color:#7d8490;letter-spacing:.07em;margin-bottom:12px}
+    .filter-option{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:8px 0;font-size:12px;color:#2e3540}
+    .filter-option label{display:flex;gap:9px;align-items:center;cursor:pointer}
+    input[type="checkbox"]{accent-color:var(--blue)}
+    .count{font-family:"DM Mono";font-size:10px;color:#9299a2}
+    .main{min-width:0}
+    .tools{display:flex;gap:12px;align-items:center;margin-bottom:18px}
+    .search{flex:1;display:flex;align-items:center;gap:10px;background:white;border:1px solid var(--line);border-radius:10px;padding:0 12px}
+    .search svg{width:16px;color:#7f8794}
+    .search input{width:100%;border:0;outline:0;background:transparent;padding:13px 0;font-size:13px}
+    .view-btn{height:43px;min-width:43px;border-radius:10px;border:1px solid var(--line);background:white;cursor:pointer;font-size:17px}
+    .meta-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+    .result-count{font-size:12px;color:var(--muted)}
+    .sort{border:1px solid var(--line);background:white;border-radius:8px;padding:7px 10px;color:#4d5562;font-size:11px;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+    .card{position:relative;overflow:hidden;background:white;border:1px solid var(--line);border-radius:15px;transition:.2s ease;cursor:pointer;min-height:284px;display:flex;flex-direction:column}
+    .card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#c7c8d2}
+    .art{height:135px;position:relative;padding:14px;overflow:hidden}
+    .art.ray{background:linear-gradient(135deg,#dbe3ff,#eff1ff)}
+    .art.volume{background:linear-gradient(135deg,#ddf6e5,#f5fff4)}
+    .art.gaze{background:linear-gradient(135deg,#ffe3ee,#fff4f8)}
+    .art.voice{background:linear-gradient(135deg,#fff0d9,#fffaf0)}
+    .art.cluster{background:linear-gradient(135deg,#ece7ff,#f7f5ff)}
+    .art .wire{position:absolute;inset:0;background-image:linear-gradient(rgba(34,47,80,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(34,47,80,.08) 1px,transparent 1px);background-size:24px 24px;transform:perspective(300px) rotateX(59deg) scale(1.6) translateY(45px);transform-origin:bottom}
+    .sphere{position:absolute;border-radius:50%;border:2px solid rgba(18,28,55,.74);box-shadow:inset -6px -5px 0 rgba(0,0,0,.06)}
+    .rayline{position:absolute;height:2px;background:var(--blue);transform-origin:left center;box-shadow:0 0 0 6px rgba(51,92,255,.13)}
+    .cone{position:absolute;width:0;height:0;border-left:66px solid transparent;border-right:66px solid transparent;border-bottom:118px solid rgba(58,190,118,.22);transform:rotate(-55deg);transform-origin:center}
+    .cursor{position:absolute;width:46px;height:46px;border:2px solid #141922;border-radius:50%;background:rgba(255,255,255,.48)}
+    .dot{position:absolute;width:9px;height:9px;border-radius:50%;background:#1b2434}
+    .card-body{padding:16px;display:flex;flex-direction:column;flex:1}
+    .card-top{display:flex;justify-content:space-between;gap:10px;align-items:start}
+    .card h3{font-size:16px;letter-spacing:-.04em;margin:0}
+    .year{font-family:"DM Mono";font-size:10px;color:#7f8794;margin-top:2px}
+    .card p{font-size:12px;line-height:1.6;color:var(--muted);margin:10px 0 15px}
+    .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+    .tag{font-size:10px;border-radius:100px;padding:5px 7px;background:#f1f2f5;color:#48505c;font-weight:800}
+    .tag.blue{background:var(--blue-soft);color:#3855c5}
+    .compare-check{position:absolute;right:11px;top:11px;width:28px;height:28px;border:1px solid rgba(17,19,24,.13);background:rgba(255,255,255,.85);border-radius:8px;display:grid;place-items:center;font-size:13px;z-index:2}
+    .compare-check.active{background:var(--ink);color:white}
+    .compare-tray{position:fixed;z-index:20;bottom:20px;left:50%;transform:translateX(-50%);width:min(720px,calc(100vw - 30px));background:#14171e;color:white;border-radius:14px;padding:13px 15px;box-shadow:0 15px 48px rgba(0,0,0,.25);display:none;align-items:center;gap:12px}
+    .compare-tray.show{display:flex}
+    .tray-items{display:flex;gap:6px;flex:1;overflow:hidden}
+    .tray-item{white-space:nowrap;background:#282e3a;border-radius:7px;padding:7px 8px;font-size:11px}
+    .compare-go{border:0;background:var(--lime);color:#142015;border-radius:8px;padding:9px 11px;font-size:11px;font-weight:900;cursor:pointer}
+    .modal{position:fixed;inset:0;z-index:30;background:rgba(8,10,15,.42);display:none;align-items:center;justify-content:center;padding:18px}
+    .modal.show{display:flex}
+    .modal-card{position:relative;width:min(760px,100%);max-height:90vh;overflow:auto;background:white;border-radius:20px;box-shadow:0 24px 80px rgba(0,0,0,.25)}
+    .modal-head{padding:30px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px}
+    .modal-head h2{margin:4px 0 0;font-size:32px;letter-spacing:-.06em}
+    .close{width:34px;height:34px;border:1px solid var(--line);background:white;border-radius:9px;font-size:18px;cursor:pointer}
+    .modal-content{padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:28px}
+    .modal-content h4{font-size:11px;font-family:"DM Mono";text-transform:uppercase;letter-spacing:.08em;color:#7b8390;margin:0 0 10px}
+    .modal-content p,.modal-content li{font-size:13px;line-height:1.65;color:#4f5761}
+    .modal-content ul{padding-left:17px;margin:0}
+    .key-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+    .key{border:1px solid var(--line);border-radius:10px;padding:10px;font-size:12px}
+    .key span{display:block;font-family:"DM Mono";font-size:9px;color:#7c8490;margin-bottom:4px;text-transform:uppercase}
+    @media(max-width:1040px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr}.hero-stat{max-width:360px}}
+    @media(max-width:760px){.nav{display:none}.topbar-inner{padding:13px 17px}.hero,.workspace{padding-left:17px;padding-right:17px}.workspace{display:block}.workspace aside{position:static;margin-bottom:18px}.filter-group{display:none}.grid{grid-template-columns:1fr}.hero{padding-top:45px}.top-actions .small-btn{display:none}.modal-content{grid-template-columns:1fr}.hero-stat{display:none}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#"><span class="brand-mark">3D</span>Selection Vault</a>
+      <nav class="nav">
+        <a href="#explore">Explore</a><a href="#taxonomy">Taxonomy</a><a href="#about">About</a>
+      </nav>
+      <div class="top-actions">
+        <button class="small-btn" onclick="alert('Prototype action: connect this button to a contribution form.')">Submit a technique</button>
+        <button class="primary-btn" onclick="document.getElementById('explore').scrollIntoView({behavior:'smooth'})">Explore vault</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Interactive knowledge base for XR</div>
+      <h1>Find the right way to select in 3D.</h1>
+      <p>Explore and compare selection techniques for virtual, augmented, and mixed reality. Filter by target conditions, input modality, interaction metaphor, and evaluation trade-offs.</p>
+    </div>
+    <div class="hero-stat">
+      <strong id="techniqueTotal">8</strong>
+      <span>seed techniques in this prototype. Expand it into a living, community-maintained catalogue of 3DUI selection research.</span>
+      <div class="legend"><span class="legend-pill">single selection</span><span class="legend-pill">multi-selection</span><span class="legend-pill">XR</span></div>
+    </div>
+  </section>
+
+  <main class="workspace" id="explore">
+    <aside>
+      <div class="filter-heading"><strong>FILTER TECHNIQUES</strong><button class="reset" id="reset">Reset all</button></div>
+      <div class="filter-group">
+        <div class="filter-title"><span>Input</span><span>⌄</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Controller" class="filter"> Controller</label><span class="count">5</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Hand tracking" class="filter"> Hand tracking</label><span class="count">4</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Gaze" class="filter"> Gaze</label><span class="count">2</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Voice" class="filter"> Voice</label><span class="count">2</span></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-title"><span>Selection metaphor</span><span>⌄</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Ray-based" class="filter"> Ray-based</label><span class="count">3</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Volume-based" class="filter"> Volume-based</label><span class="count">2</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Proximity-based" class="filter"> Proximity-based</label><span class="count">2</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Disambiguation" class="filter"> Disambiguation</label><span class="count">3</span></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-title"><span>Best target condition</span><span>⌄</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Far targets" class="filter"> Far targets</label><span class="count">5</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Dense targets" class="filter"> Dense targets</label><span class="count">4</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Small targets" class="filter"> Small targets</label><span class="count">4</span></div>
+        <div class="filter-option"><label><input type="checkbox" value="Occluded targets" class="filter"> Occluded targets</label><span class="count">2</span></div>
+      </div>
+    </aside>
+
+    <section class="main">
+      <div class="tools">
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="search" placeholder="Search technique, paper, author, or use case..." />
+        </label>
+        <button class="view-btn" aria-label="Toggle compact view" id="viewToggle">▦</button>
+      </div>
+      <div class="meta-row">
+        <span class="result-count" id="resultCount">Showing 8 techniques</span>
+        <select class="sort" id="sort"><option value="name">Sort: A–Z</option><option value="year">Sort: newest</option></select>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+  </main>
+
+  <div class="compare-tray" id="tray">
+    <strong style="font-size:12px;white-space:nowrap">Compare</strong>
+    <div class="tray-items" id="trayItems"></div>
+    <button class="compare-go" id="compareGo">Open comparison</button>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div><div class="eyebrow" id="modalEyebrow">Technique profile</div><h2 id="modalTitle">Raycasting</h2></div>
+        <button class="close" id="closeModal">×</button>
+      </div>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+<script>
+let techniques = [];
+const dataUrl = "techniques.xml";
+
+function textOf(node, selector) {
+  return node.querySelector(selector)?.textContent.trim() || "";
+}
+
+async function loadTechniques() {
+  try {
+    const response = await fetch(dataUrl);
+    if (!response.ok) throw new Error(`Could not load ${dataUrl}`);
+    const xmlText = await response.text();
+    const xml = new DOMParser().parseFromString(xmlText, "application/xml");
+    if (xml.querySelector("parsererror")) throw new Error("The XML file contains a parsing error.");
+    techniques = [...xml.querySelectorAll("technique")].map(node => ({
+      id: node.getAttribute("id") || crypto.randomUUID(),
+      name: textOf(node, "name"), year: Number(textOf(node, "year")) || 0,
+      art: textOf(node, "art") || "cluster", description: textOf(node, "description"),
+      best: textOf(node, "best"), limits: textOf(node, "limits"), how: textOf(node, "how"),
+      citation: textOf(node, "citation"), tags: [...node.querySelectorAll("tags > tag")].map(tag => tag.textContent.trim())
+    }));
+    document.getElementById("techniqueTotal").textContent = techniques.length;
+    render();
+  } catch (error) {
+    console.error(error);
+    grid.innerHTML = `<div style="grid-column:1/-1;background:#fff;border:1px solid var(--line);border-radius:15px;padding:24px"><strong>Could not load the technique data.</strong><p style="color:var(--muted);line-height:1.6">Serve this folder through a local web server rather than opening <code>index.html</code> directly. Run <code>python -m http.server 8000</code> from this folder, then open <code>http://localhost:8000</code>.</p></div>`;
+    resultCount.textContent = "Data unavailable";
+  }
+}
+
+const grid = document.getElementById('grid');
+const search = document.getElementById('search');
+const resultCount = document.getElementById('resultCount');
+const filters = [...document.querySelectorAll('.filter')];
+const selected = new Set();
+let compact = false;
+
+function artMarkup(type){
+  const common='<div class="wire"></div>';
+  if(type==='ray') return `${common}<div class="sphere" style="width:35px;height:35px;right:33px;top:45px"></div><div class="rayline" style="width:162px;left:10px;top:112px;transform:rotate(-24deg)"></div>`;
+  if(type==='volume') return `${common}<div class="cone" style="left:65px;top:12px"></div><div class="sphere" style="width:27px;height:27px;right:36px;top:52px"></div>`;
+  if(type==='gaze') return `${common}<div class="cursor" style="left:64px;top:43px"></div><div class="dot" style="left:82px;top:61px"></div><div class="sphere" style="width:25px;height:25px;right:45px;top:57px"></div>`;
+  if(type==='voice') return `${common}<div class="sphere" style="width:27px;height:27px;right:58px;top:39px"></div><div class="sphere" style="width:20px;height:20px;right:25px;top:68px"></div><div class="rayline" style="width:158px;left:12px;top:108px;transform:rotate(-20deg)"></div><div style="position:absolute;left:104px;top:20px;font-size:28px">◖◗</div>`;
+  return `${common}<div class="cursor" style="left:63px;top:43px"></div><div class="sphere" style="width:20px;height:20px;right:45px;top:40px"></div><div class="sphere" style="width:17px;height:17px;right:20px;top:65px"></div><div class="sphere" style="width:14px;height:14px;right:73px;top:76px"></div>`;
+}
+function render(){
+  const term = search.value.trim().toLowerCase();
+  const active = filters.filter(f=>f.checked).map(f=>f.value);
+  let list = techniques.filter(t=>{
+    const hay = [t.name,t.description,t.tags.join(' '),t.citation,t.best,t.limits].join(' ').toLowerCase();
+    const queryMatch = !term || hay.includes(term);
+    const filterMatch = !active.length || active.every(v=>t.tags.includes(v));
+    return queryMatch && filterMatch;
+  });
+  if(document.getElementById('sort').value==='year') list.sort((a,b)=>b.year-a.year);
+  else list.sort((a,b)=>a.name.localeCompare(b.name));
+  resultCount.textContent = `Showing ${list.length} technique${list.length!==1?'s':''}`;
+  grid.innerHTML = list.map((t,i)=>`
+    <article class="card" data-index="${techniques.indexOf(t)}">
+      <button class="compare-check ${selected.has(t.name)?'active':''}" title="Add to compare">${selected.has(t.name)?'✓':'+'}</button>
+      <div class="art ${t.art}">${artMarkup(t.art)}</div>
+      <div class="card-body">
+        <div class="card-top"><div><h3>${t.name}</h3><div class="year">${t.year}</div></div></div>
+        <p>${t.description}</p>
+        <div class="tags">${t.tags.slice(0,3).map((x,j)=>`<span class="tag ${j===0?'blue':''}">${x}</span>`).join('')}</div>
+      </div>
+    </article>`).join('');
+  grid.querySelectorAll('.card').forEach(card=>{
+    card.addEventListener('click', e=>{
+      if(e.target.closest('.compare-check')) return;
+      openModal(techniques[+card.dataset.index]);
+    });
+    card.querySelector('.compare-check').addEventListener('click', e=>{
+      e.stopPropagation(); const t=techniques[+card.dataset.index];
+      if(selected.has(t.name)) selected.delete(t.name); else if(selected.size<3) selected.add(t.name); else alert('Select up to three techniques to compare.');
+      render(); renderTray();
+    });
+  });
+}
+function renderTray(){
+  const tray=document.getElementById('tray'), items=[...selected];
+  tray.classList.toggle('show',items.length>0);
+  document.getElementById('trayItems').innerHTML=items.map(n=>`<span class="tray-item">${n}</span>`).join('');
+}
+function openModal(t){
+  document.getElementById('modalTitle').textContent=t.name;
+  document.getElementById('modalEyebrow').textContent=`${t.year} · ${t.tags[0]} · technique profile`;
+  document.getElementById('modalContent').innerHTML=`
+    <div><h4>What it does</h4><p>${t.description}</p><h4>How it works</h4><p>${t.how}</p><h4>Reference</h4><p>${t.citation}</p></div>
+    <div><h4>Design fit</h4><div class="key-grid">
+      <div class="key"><span>Best for</span>${t.best}</div>
+      <div class="key"><span>Trade-off</span>${t.limits}</div>
+    </div><h4 style="margin-top:20px">Classification</h4><ul>${t.tags.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
+  document.getElementById('modal').classList.add('show');
+}
+search.addEventListener('input',render);
+filters.forEach(f=>f.addEventListener('change',render));
+document.getElementById('sort').addEventListener('change',render);
+document.getElementById('reset').addEventListener('click',()=>{filters.forEach(f=>f.checked=false);search.value='';render()});
+document.getElementById('closeModal').addEventListener('click',()=>document.getElementById('modal').classList.remove('show'));
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')e.currentTarget.classList.remove('show')});
+document.getElementById('viewToggle').addEventListener('click',()=>{compact=!compact;grid.style.gridTemplateColumns=compact?'repeat(4,minmax(0,1fr))':'';});
+document.getElementById('compareGo').addEventListener('click',()=>{
+  const choices=techniques.filter(t=>selected.has(t.name));
+  if(!choices.length)return;
+  document.getElementById('modalTitle').textContent='Technique comparison';
+  document.getElementById('modalEyebrow').textContent='Side-by-side design trade-offs';
+  document.getElementById('modalContent').innerHTML=`<div style="grid-column:1/-1;overflow:auto"><table style="border-collapse:collapse;width:100%;font-size:12px"><thead><tr><th style="text-align:left;padding:10px;border-bottom:1px solid #deded6">Dimension</th>${choices.map(t=>`<th style="text-align:left;padding:10px;border-bottom:1px solid #deded6">${t.name}</th>`).join('')}</tr></thead><tbody>${[['Input',t=>t.tags.filter(x=>['Controller','Hand tracking','Gaze','Voice'].includes(x)).join(', ')],['Best use',t=>t.best],['Trade-off',t=>t.limits],['Tags',t=>t.tags.join(', ')]].map(([k,fn])=>`<tr><td style="vertical-align:top;padding:10px;border-bottom:1px solid #eee;font-weight:800">${k}</td>${choices.map(t=>`<td style="vertical-align:top;padding:10px;border-bottom:1px solid #eee;color:#525a65;line-height:1.55">${fn(t)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  document.getElementById('modal').classList.add('show');
+});
+loadTechniques();
+</script>
+</body>
+</html>
