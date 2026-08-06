@@ -40,13 +40,13 @@
 
         <technique id="cone-casting">
             <name>Cone Casting</name>
-            <year>1997</year>
+            <year>1994</year>
             <art>volume</art>
             <description>A cone-shaped volume expands the effective acquisition area for remote targets.</description>
             <best>Distant targets when exact ray alignment is demanding.</best>
             <limits>May create ambiguity when several candidates fall inside the cone.</limits>
             <how>Aim a cone at a region; resolve the chosen object by proximity or ranking.</how>
-            <citation>Liang &amp; Green, 1994 · Volume-based distal selection.</citation>
+            <citation>Liang, J., &amp; Green, M. (1994). JDCAD: A highly interactive 3D modeling system. Computers &amp; graphics, 18(4), 499-506.</citation>
             <tags>
                 <tag>Controller</tag>
                 <tag>Ray-based</tag>
@@ -72,6 +72,7 @@
                 <tag>Small targets</tag>
             </tags>
         </technique>
+
         <technique id="gaze-pinch">
             <name>Gaze + Pinch</name>
             <year>2020</year>
@@ -88,6 +89,7 @@
                 <tag>Far targets</tag>
             </tags>
         </technique>
+
         <technique id="voiceray">
             <name>VoiceRay</name>
             <year>2025</year>
@@ -105,15 +107,16 @@
                 <tag>Dense targets</tag>
             </tags>
         </technique>
+
         <technique id="aperture-selection">
             <name>Aperture Selection</name>
-            <year>2011</year>
+            <year>1996</year>
             <art>ray</art>
             <description>Targets are acquired through a controllable aperture that balances precision and speed.</description>
             <best>Precise selection of small or distant objects.</best>
             <limits>Requires learning and can add extra adjustment steps.</limits>
             <how>Adjust an aperture around the intended target, then confirm.</how>
-            <citation>Aperture-based control for target acquisition.</citation>
+            <citation>Forsberg, A., Herndon, K., &amp; Zeleznik, R. (1996, November). Aperture based selection for immersive virtual environments. In Proceedings of the 9th annual ACM symposium on User interface software and technology (pp. 95-96)..</citation>
             <tags>
                 <tag>Controller</tag>
                 <tag>Hand tracking</tag>
@@ -122,6 +125,7 @@
                 <tag>Far targets</tag>
             </tags>
         </technique>
+
         <technique id="volumetric-hand-cursor">
             <name>Volumetric Hand Cursor</name>
             <year>2019</year>
@@ -138,6 +142,7 @@
                 <tag>Near targets</tag>
             </tags>
         </technique>
+
         <technique id="gaze-voice">
             <name>Gaze + Voice</name>
             <year>2024</year>
@@ -155,5 +160,46 @@
                 <tag>Dense targets</tag>
             </tags>
         </technique>
+
+
+        <technique id="go-go">
+            <name>Go-Go</name>
+            <year>1996</year>
+            <art>volume</art>
+            <description>A direct 3D selection and manipulation technique that extends the user's virtual reach using a non-linear mapping between the real hand and the virtual hand.</description>
+            <best>Selecting and manipulating objects that are beyond normal arm reach while preserving the feeling of direct hand-based interaction.</best>
+            <limits>The non-linear hand mapping can reduce precision and may require practice, especially when switching between near objects and extended-reach objects.</limits>
+            <how> Move the tracked hand toward the target. For nearby objects, the virtual hand follows the real hand closely. After a threshold distance, the virtual hand moves farther than the real hand, allowing the user to reach distant objects without physically walking.</how>
+            <citation>  Poupyrev, I., Billinghurst, M., Weghorst, S., &amp; Ichikawa, T. (1996). The Go-Go Interaction Technique: Non-Linear Mapping for Direct Manipulation in VR. Proceedings of the 9th Annual ACM Symposium on User Interface Software and Technology, 79–80.</citation>
+
+          <tags>
+            <tag>Controller</tag>
+            <tag>Hand tracking</tag>
+            <tag>Direct selection</tag>
+            <tag>Near targets</tag>
+            <tag>Far targets</tag>
+            <tag>Object manipulation</tag>
+          </tags>
+        </technique>
+
+
+        <technique id="flexible-pointer">
+          <name>Flexible Pointer</name>
+          <year>2003</year>
+          <art>ray</art>
+          <description>A flexible 3D pointing technique that bends the pointer path, allowing users to select fully or partially obscured objects in augmented and virtual reality environments.</description>
+          <best>Selecting objects that are partially hidden, visually occluded, or difficult to reach with a straight ray-based pointing technique.</best>
+          <limits>The curved pointer may require additional control and can be harder to understand than simple raycasting, especially when users need to adjust the pointer shape precisely.</limits>
+          <how>The user controls a virtual pointer whose shape can bend around occluding objects. Instead of pointing only along a straight line, the pointer can curve toward a target that is not directly visible or not easily reachable with standard egocentric pointing.</how>
+          <citation>Olwal, A., &amp; Feiner, S. (2003). The Flexible Pointer: An Interaction Technique for Selection in Augmented and Virtual Reality. UIST '03 Conference Supplement, ACM Symposium on User Interface Software and Technology, 81–82.</citation>
+          <tags>
+            <tag>Controller</tag>
+            <tag>Ray-based</tag>
+            <tag>Disambiguation</tag>
+            <tag>Occluded targets</tag>
+            <tag>Far targets</tag>
+          </tags>
+        </technique>
+
     </techniques>
 </selectionVault>
