@@ -9,7 +9,7 @@
             <best>Fast selection of visible distant targets.</best>
             <limits>Small and occluded targets can be difficult; precision decreases with distance.</limits>
             <how>Point a virtual ray at an object and confirm with a button, pinch, or dwell.</how>
-            <citation>M. Mine. Virtual environment interaction techniques, 1995.</citation>
+            <citation>Mine, M. (1995). Virtual environment interaction techniques. UNC Chapel Hill CS Dept, 2.</citation>
             <tags>
                 <tag>Controller</tag>
                 <tag>Hand tracking</tag>
@@ -58,7 +58,7 @@
             <best>Hands-busy contexts and lightweight XR input.</best>
             <limits>May suffer from Midas-touch effects without deliberate confirmation.</limits>
             <how>Look at a candidate target, then pinch to select it.</how>
-            <citation>Contemporary XR gaze-hand combination pattern.</citation>
+            <citation>Pfeuffer, K., Mayer, B., Mardanbegi, D., &amp; Gellersen, H. (2017, October). Gaze+ pinch interaction in virtual reality. In Proceedings of the 5th symposium on spatial user interaction (pp. 99-108).</citation>
             <tags>
                 <tag>Gaze</tag>
                 <tag>Hand tracking</tag>
