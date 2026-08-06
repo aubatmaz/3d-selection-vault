@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <selectionVault>
     <techniques>
+
         <technique id="raycasting">
             <name>Raycasting</name>
             <year>1992</year>
@@ -17,6 +18,26 @@
                 <tag>Far targets</tag>
             </tags>
         </technique>
+
+        <technique id="virtual-hand">
+            <name>Virtual Hand</name>
+            <year>1997</year>
+            <art>hand</art>
+            <description>A direct 3D selection technique where the user controls a virtual hand to touch, grab, and manipulate nearby objects in the virtual environment.</description>
+            <best>Natural selection and manipulation of nearby objects, especially when the interaction benefits from proprioception and direct hand-object contact.</best>
+            <limits> Less suitable for distant targets because the user must reach toward the object or rely on an extended mapping. It can also cause fatigue during repeated or long interactions.</limits>
+            <how>Move the tracked hand or controller so that the virtual hand overlaps with the target object, then confirm the selection by grabbing, pressing a button, or performing a pinch gesture.</how>
+            <citation>Mine, M. R., Brooks Jr, F. P., &amp; Sequin, C. H. (1997, August). Moving objects in space: exploiting proprioception in virtual-environment interaction. In Proceedings of the 24th annual conference on Computer graphics and interactive techniques (pp. 19-26).</citation>
+            <tags>
+                <tag>Controller</tag>
+                <tag>Hand tracking</tag>
+                <tag>Direct selection</tag>
+                <tag>Near targets</tag>
+                <tag>Object manipulation</tag>
+            </tags>
+        </technique>
+
+
         <technique id="cone-casting">
             <name>Cone Casting</name>
             <year>1997</year>
@@ -34,6 +55,7 @@
                 <tag>Dense targets</tag>
             </tags>
         </technique>
+
         <technique id="bubble-cursor">
             <name>Bubble Cursor</name>
             <year>2005</year>
