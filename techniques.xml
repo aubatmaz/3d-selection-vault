@@ -74,7 +74,7 @@
             <best>Dense and clustered distant objects where raycasting is ambiguous.</best>
             <limits>Speech latency and social or contextual appropriateness can matter.</limits>
             <how>Aim at a cluster, then say an ordinal command such as “third”.</how>
-            <citation>Batmaz et al. · Voice-enhanced ordinal disambiguation.</citation>
+            <citation>Turkmen, R., Rasoulifar, Z., &amp; Batmaz, A. U. (2026, April). VoiceRay: 3D Object Selection Technique for Occluded and Dense Environments in Virtual Reality. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (pp. 1-19).</citation>
             <tags>
                 <tag>Controller</tag>
                 <tag>Voice</tag>

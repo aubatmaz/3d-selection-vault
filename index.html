@@ -99,8 +99,20 @@
     .key-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
     .key{border:1px solid var(--line);border-radius:10px;padding:10px;font-size:12px}
     .key span{display:block;font-family:"DM Mono";font-size:9px;color:#7c8490;margin-bottom:4px;text-transform:uppercase}
+
+    .submit-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .form-field{display:flex;flex-direction:column;gap:6px}
+    .form-field.full{grid-column:1/-1}
+    .form-field label{font-size:11px;font-family:"DM Mono";text-transform:uppercase;letter-spacing:.07em;color:#6f7784}
+    .form-field input,.form-field textarea,.form-field select{border:1px solid var(--line);border-radius:10px;padding:11px 12px;background:#fff;color:var(--ink);outline:none;font-size:13px}
+    .form-field textarea{min-height:78px;resize:vertical;line-height:1.5}
+    .form-field input:focus,.form-field textarea:focus,.form-field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(51,92,255,.12)}
+    .generated-xml{width:100%;min-height:180px;border:1px solid var(--line);border-radius:12px;padding:12px;background:#f7f8fa;font-family:"DM Mono",monospace;font-size:11px;line-height:1.55;color:#252b36;resize:vertical}
+    .form-actions{grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:4px}
+    .helper-text{grid-column:1/-1;font-size:12px;color:var(--muted);line-height:1.55;margin:0}
+    .copy-status{font-size:12px;color:var(--blue);font-weight:800}
     @media(max-width:1040px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{grid-template-columns:1fr}.hero-stat{max-width:360px}}
-    @media(max-width:760px){.nav{display:none}.topbar-inner{padding:13px 17px}.hero,.workspace{padding-left:17px;padding-right:17px}.workspace{display:block}.workspace aside{position:static;margin-bottom:18px}.filter-group{display:none}.grid{grid-template-columns:1fr}.hero{padding-top:45px}.top-actions .small-btn{display:none}.modal-content{grid-template-columns:1fr}.hero-stat{display:none}}
+    @media(max-width:760px){.nav{display:none}.topbar-inner{padding:13px 17px}.hero,.workspace{padding-left:17px;padding-right:17px}.workspace{display:block}.workspace aside{position:static;margin-bottom:18px}.filter-group{display:none}.grid{grid-template-columns:1fr}.hero{padding-top:45px}.top-actions .small-btn{display:inline-block}.modal-content{grid-template-columns:1fr}.submit-form{grid-template-columns:1fr}.hero-stat{display:none}}
   </style>
 </head>
 <body>
@@ -111,7 +123,7 @@
         <a href="#explore">Explore</a><a href="#taxonomy">Taxonomy</a><a href="#about">About</a>
       </nav>
       <div class="top-actions">
-        <button class="small-btn" onclick="alert('Prototype action: connect this button to a contribution form.')">Submit a technique</button>
+        <button class="small-btn" id="submitTechniqueBtn">Submit a technique</button>
         <button class="primary-btn" onclick="document.getElementById('explore').scrollIntoView({behavior:'smooth'})">Explore vault</button>
       </div>
     </div>
@@ -188,9 +200,143 @@
     </div>
   </div>
 
+
+  <div class="modal" id="submitModal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div>
+          <div class="eyebrow">Community contribution</div>
+          <h2>Submit a technique</h2>
+        </div>
+        <button class="close" id="closeSubmitModal">×</button>
+      </div>
+      <div class="modal-content" style="display:block">
+        <form class="submit-form" id="techniqueForm">
+          <p class="helper-text">Fill this form to generate a ready-to-paste XML entry. Then add the generated block inside the <code>&lt;techniques&gt;</code> section of <code>techniques.xml</code> and push the change to GitHub.</p>
+
+          <div class="form-field">
+            <label for="newName">Technique name</label>
+            <input id="newName" required placeholder="e.g., Progressive Refinement Ray" />
+          </div>
+          <div class="form-field">
+            <label for="newYear">Year</label>
+            <input id="newYear" type="number" min="1960" max="2100" placeholder="2026" />
+          </div>
+          <div class="form-field">
+            <label for="newArt">Card visual</label>
+            <select id="newArt">
+              <option value="ray">ray</option>
+              <option value="volume">volume</option>
+              <option value="gaze">gaze</option>
+              <option value="voice">voice</option>
+              <option value="cluster">cluster</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="newTags">Tags</label>
+            <input id="newTags" placeholder="Controller, Ray-based, Far targets" />
+          </div>
+          <div class="form-field full">
+            <label for="newDescription">Description</label>
+            <textarea id="newDescription" required placeholder="A short explanation of what the technique does."></textarea>
+          </div>
+          <div class="form-field full">
+            <label for="newBest">Best for</label>
+            <textarea id="newBest" placeholder="The situation where this technique is most useful."></textarea>
+          </div>
+          <div class="form-field full">
+            <label for="newLimits">Trade-off / limitation</label>
+            <textarea id="newLimits" placeholder="The main limitation or design trade-off."></textarea>
+          </div>
+          <div class="form-field full">
+            <label for="newHow">How it works</label>
+            <textarea id="newHow" placeholder="Briefly explain how the user performs the selection."></textarea>
+          </div>
+          <div class="form-field full">
+            <label for="newCitation">Citation</label>
+            <input id="newCitation" placeholder="Author et al., 2026 · Paper title or venue" />
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="primary-btn">Generate XML</button>
+            <button type="button" class="small-btn" id="copyXmlBtn">Copy XML</button>
+            <button type="button" class="small-btn" id="downloadXmlBtn">Download XML block</button>
+            <span class="copy-status" id="copyStatus"></span>
+          </div>
+
+          <div class="form-field full">
+            <label for="generatedXml">Generated XML</label>
+            <textarea id="generatedXml" class="generated-xml" readonly placeholder="Your XML block will appear here."></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
 <script>
 let techniques = [];
 const dataUrl = "techniques.xml";
+
+
+
+function xmlEscape(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function slugify(value) {
+  return String(value || "new-technique")
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "new-technique";
+}
+
+function generateTechniqueXml() {
+  const name = document.getElementById('newName').value.trim();
+  const year = document.getElementById('newYear').value.trim() || new Date().getFullYear();
+  const art = document.getElementById('newArt').value;
+  const tags = document.getElementById('newTags').value
+    .split(',')
+    .map(tag => tag.trim())
+    .filter(Boolean);
+
+  if (!name) {
+    alert('Please enter a technique name.');
+    return '';
+  }
+
+  const xmlBlock = `    <technique id="${xmlEscape(slugify(name))}">
+      <name>${xmlEscape(name)}</name>
+      <year>${xmlEscape(year)}</year>
+      <art>${xmlEscape(art)}</art>
+      <description>${xmlEscape(document.getElementById('newDescription').value.trim())}</description>
+      <best>${xmlEscape(document.getElementById('newBest').value.trim())}</best>
+      <limits>${xmlEscape(document.getElementById('newLimits').value.trim())}</limits>
+      <how>${xmlEscape(document.getElementById('newHow').value.trim())}</how>
+      <citation>${xmlEscape(document.getElementById('newCitation').value.trim())}</citation>
+      <tags>
+${tags.map(tag => `        <tag>${xmlEscape(tag)}</tag>`).join('\n')}
+      </tags>
+    </technique>`;
+
+  document.getElementById('generatedXml').value = xmlBlock;
+  document.getElementById('copyStatus').textContent = 'XML generated.';
+  return xmlBlock;
+}
+
+function openSubmitModal() {
+  document.getElementById('submitModal').classList.add('show');
+  setTimeout(() => document.getElementById('newName').focus(), 50);
+}
+
+function closeSubmitModal() {
+  document.getElementById('submitModal').classList.remove('show');
+}
 
 function textOf(node, selector) {
   return node.querySelector(selector)?.textContent.trim() || "";
@@ -284,6 +430,36 @@ function openModal(t){
     </div><h4 style="margin-top:20px">Classification</h4><ul>${t.tags.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
   document.getElementById('modal').classList.add('show');
 }
+
+document.getElementById('submitTechniqueBtn').addEventListener('click', openSubmitModal);
+document.getElementById('closeSubmitModal').addEventListener('click', closeSubmitModal);
+document.getElementById('submitModal').addEventListener('click', e=>{if(e.target.id==='submitModal') closeSubmitModal();});
+document.getElementById('techniqueForm').addEventListener('submit', e=>{e.preventDefault(); generateTechniqueXml();});
+document.getElementById('copyXmlBtn').addEventListener('click', async ()=>{
+  const xml = document.getElementById('generatedXml').value || generateTechniqueXml();
+  if (!xml) return;
+  try {
+    await navigator.clipboard.writeText(xml);
+    document.getElementById('copyStatus').textContent = 'Copied. Paste it before </techniques> in techniques.xml.';
+  } catch (error) {
+    document.getElementById('generatedXml').select();
+    document.getElementById('copyStatus').textContent = 'Select the XML and copy it manually.';
+  }
+});
+document.getElementById('downloadXmlBtn').addEventListener('click', ()=>{
+  const xml = document.getElementById('generatedXml').value || generateTechniqueXml();
+  if (!xml) return;
+  const blob = new Blob([xml + '\n'], {type:'application/xml'});
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `${slugify(document.getElementById('newName').value)}.xml`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(link.href);
+  document.getElementById('copyStatus').textContent = 'Downloaded XML block.';
+});
+
 search.addEventListener('input',render);
 filters.forEach(f=>f.addEventListener('change',render));
 document.getElementById('sort').addEventListener('change',render);
