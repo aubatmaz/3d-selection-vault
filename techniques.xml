@@ -304,6 +304,157 @@
           </tags>
         </technique>
 
+        <technique id="gazebubble">
+          <name>GazeBubble</name>
+          <year>2026</year>
+          <art>gaze</art>
+          <description>A 3D gaze-pointing technique that adapts the bubble cursor mechanism to gaze-based target acquisition in virtual reality.</description>
+
+          <best>Hands-free selection of 3D targets in virtual reality, especially when gaze can quickly indicate the intended region or candidate target.</best>
+
+          <limits>Gaze-based pointing can be affected by eye-tracking precision, visual attention demands, and ambiguity when many targets are close together.</limits>
+
+          <how>The user points with gaze, and the system applies a bubble-like selection mechanism around the gaze position to determine the most likely target. In dense scenes, an assistive interaction such as Diffuse can help separate or clarify candidate targets.</how>
+
+          <citation>Zhang, B., Sun, M., Li, Z., Jin, Y., &amp; Tian, Y. (2026). GazeBubble: Exploring bubble mechanism for 3D gaze pointing to enhance target acquisition in virtual reality. International Journal of Human–Computer Interaction, 42(4), 2132–2163.</citation>
+
+          <tags>
+            <tag>Gaze</tag>
+            <tag>Bubble cursor</tag>
+            <tag>Hands-free</tag>
+            <tag>3D pointing</tag>
+            <tag>Dense targets</tag>
+            <tag>Small targets</tag>
+          </tags>
+        </technique>
+
+    <technique id="wise-cursor">
+      <name>Wise Cursor</name>
+      <year>2013</year>
+      <art>cluster</art>
+
+      <description>An assisted 3D selection technique for mouse-driven serious games that estimates which object the user intended to select and supports clarification when the intended target is uncertain.</description>
+
+      <best>Improving accessibility and usability in 3D serious games, especially for users who are not experienced with first-person 3D interaction.</best>
+
+      <limits>The technique depends on the quality of the candidate-ranking model. When the system's probability estimate does not match the user's intention, an additional clarification step may be needed.</limits>
+
+      <how>When the user clicks in the 3D environment, the system computes a set of candidate objects and estimates the probability that each one is the intended target. If one candidate is sufficiently likely, it is selected; otherwise, the system asks the user to clarify the selection.</how>
+
+      <citation>Moya, S., Grau, S., &amp; Tost, D. (2013). The Wise Cursor: Assisted selection in 3D serious games. The Visual Computer, 29(6), 795–804.</citation>
+
+      <tags>
+        <tag>Mouse</tag>
+        <tag>Assisted selection</tag>
+        <tag>Disambiguation</tag>
+        <tag>Serious games</tag>
+        <tag>Dense targets</tag>
+        <tag>Accessibility</tag>
+      </tags>
+    </technique>
+
+    <technique id="multifingerbubble">
+      <name>MultiFingerBubble</name>
+      <year>2022</year>
+      <art>hand</art>
+
+      <description>A 3D bubble cursor variation for dense environments that uses multiple fingers to support target acquisition in crowded 3D spaces.</description>
+
+      <best>Selecting targets in dense 3D environments where several objects are close together and a single-point cursor may not provide enough control or precision.</best>
+
+      <limits>The technique depends on reliable hand and finger tracking. It may also require users to coordinate multiple fingers, which can increase motor complexity compared with single-point selection.</limits>
+
+      <how>The user performs selection with multiple tracked fingers. The system uses a bubble-cursor-like mechanism around the fingers to identify and acquire the intended target among nearby candidates.</how>
+
+      <citation>Delamare, W., Daniel, M., &amp; Hasan, K. (2022, April). MultiFingerBubble: A 3D bubble cursor variation for dense environments. In CHI Conference on Human Factors in Computing Systems Extended Abstracts (pp. 1–6).</citation>
+
+      <tags>
+        <tag>Hand tracking</tag>
+        <tag>Finger input</tag>
+        <tag>Bubble cursor</tag>
+        <tag>Proximity-based</tag>
+        <tag>Dense targets</tag>
+        <tag>Small targets</tag>
+      </tags>
+    </technique>
+
+    <technique id="bubble-raycasting">
+      <name>Bubble Raycasting</name>
+      <year>2020</year>
+      <art>ray</art>
+
+      <description>A ray-casting variation that integrates a bubble mechanism to improve 3D target acquisition in virtual reality.</description>
+
+      <best>Selecting small, dense, or difficult-to-point-at targets in VR when standard ray-casting requires too much precision.</best>
+
+      <limits>The bubble mechanism can introduce ambiguity when several targets are close to the ray or fall within the adaptive selection region.</limits>
+
+      <how>The user points toward the target with a ray. Instead of selecting only the exact ray intersection, the system applies a bubble-like selection region around the ray to determine the most likely target.</how>
+
+      <citation>Lu, Y., Yu, C., &amp; Shi, Y. (2020, March). Investigating bubble mechanism for ray-casting to improve 3D target acquisition in virtual reality. In 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR) (pp. 35–43). IEEE.</citation>
+
+      <tags>
+        <tag>Controller</tag>
+        <tag>Ray-based</tag>
+        <tag>Bubble cursor</tag>
+        <tag>Proximity-based</tag>
+        <tag>Small targets</tag>
+        <tag>Dense targets</tag>
+        <tag>Far targets</tag>
+      </tags>
+    </technique>
+
+        <technique id="bubble-gaze-cursor">
+          <name>Bubble Gaze Cursor</name>
+          <year>2020</year>
+          <art>gaze</art>
+
+          <description>A gaze-based area cursor technique that applies the bubble cursor mechanism to eye-gaze interaction, enlarging the effective selection area around the gaze point.</description>
+
+          <best>Selecting small or closely spaced targets with eye gaze when direct gaze pointing is difficult due to eye-tracking noise or limited gaze precision.</best>
+
+          <limits>The technique can still become ambiguous when multiple targets are close to the gaze point, and gaze jitter may affect which object is treated as the nearest candidate.</limits>
+
+          <how> The user looks toward the desired target. The system places a bubble-like area cursor around the gaze position and selects the nearest or most likely target inside the adaptive selection area. </how>
+
+          <citation> Choi, M., Sakamoto, D., &amp; Ono, T. (2020, June). Bubble Gaze Cursor + Bubble Gaze Lens: Applying area cursor technique to eye-gaze interface. In ACM Symposium on Eye Tracking Research and Applications (pp. 1–10). </citation>
+
+          <tags>
+            <tag>Gaze</tag>
+            <tag>Bubble cursor</tag>
+            <tag>Area cursor</tag>
+            <tag>Hands-free</tag>
+            <tag>Small targets</tag>
+            <tag>Dense targets</tag>
+          </tags>
+        </technique>
+
+
+        <technique id="bubble-gaze-lens">
+          <name>Bubble Gaze Lens</name>
+          <year>2020</year>
+          <art>gaze</art>
+
+          <description>A gaze-based selection technique that combines the bubble cursor idea with a lens mechanism to support more accurate target selection through eye gaze.</description>
+
+          <best>Selecting small or dense targets with gaze when users need additional visual support to distinguish the intended target from nearby alternatives.</best>
+
+          <limits>The lens can add visual complexity and may be less suitable when the interface should remain visually minimal or when targets move quickly.</limits>
+
+          <how>The user looks toward a target region. The system activates a lens around the gaze position, helping reveal, enlarge, or clarify nearby candidate targets so the intended one can be selected more accurately.</how>
+
+          <citation>Choi, M., Sakamoto, D., &amp; Ono, T. (2020, June). Bubble Gaze Cursor + Bubble Gaze Lens: Applying area cursor technique to eye-gaze interface. In ACM Symposium on Eye Tracking Research and Applications (pp. 1–10).</citation>
+
+          <tags>
+            <tag>Gaze</tag>
+            <tag>Bubble cursor</tag>
+            <tag>Lens-based</tag>
+            <tag>Area cursor</tag>
+            <tag>Hands-free</tag>
+            <tag>Small targets</tag>
+            <tag>Dense targets</tag>
+          </tags>
+        </technique>
 
     </techniques>
 </selectionVault>

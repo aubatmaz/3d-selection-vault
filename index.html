@@ -373,12 +373,119 @@ const selected = new Set();
 let compact = false;
 
 function artMarkup(type){
-  const common='<div class="wire"></div>';
-  if(type==='ray') return `${common}<div class="sphere" style="width:35px;height:35px;right:33px;top:45px"></div><div class="rayline" style="width:162px;left:10px;top:112px;transform:rotate(-24deg)"></div>`;
-  if(type==='volume') return `${common}<div class="cone" style="left:65px;top:12px"></div><div class="sphere" style="width:27px;height:27px;right:36px;top:52px"></div>`;
-  if(type==='gaze') return `${common}<div class="cursor" style="left:64px;top:43px"></div><div class="dot" style="left:82px;top:61px"></div><div class="sphere" style="width:25px;height:25px;right:45px;top:57px"></div>`;
-  if(type==='voice') return `${common}<div class="sphere" style="width:27px;height:27px;right:58px;top:39px"></div><div class="sphere" style="width:20px;height:20px;right:25px;top:68px"></div><div class="rayline" style="width:158px;left:12px;top:108px;transform:rotate(-20deg)"></div><div style="position:absolute;left:104px;top:20px;font-size:28px">◖◗</div>`;
-  return `${common}<div class="cursor" style="left:63px;top:43px"></div><div class="sphere" style="width:20px;height:20px;right:45px;top:40px"></div><div class="sphere" style="width:17px;height:17px;right:20px;top:65px"></div><div class="sphere" style="width:14px;height:14px;right:73px;top:76px"></div>`;
+  const common = '<div class="wire"></div>';
+
+  if(type === 'ray') {
+    return `
+      ${common}
+      <div class="sphere" style="width:35px;height:35px;right:33px;top:45px"></div>
+      <div class="rayline" style="width:162px;left:10px;top:112px;transform:rotate(-24deg)"></div>
+    `;
+  }
+
+  if(type === 'volume') {
+    return `
+      ${common}
+      <div class="cone" style="left:65px;top:12px"></div>
+      <div class="sphere" style="width:27px;height:27px;right:36px;top:52px"></div>
+    `;
+  }
+
+  if(type === 'gaze') {
+    return `
+      ${common}
+      <div class="cursor" style="left:64px;top:43px"></div>
+      <div class="dot" style="left:82px;top:61px"></div>
+      <div class="sphere" style="width:25px;height:25px;right:45px;top:57px"></div>
+    `;
+  }
+
+  if(type === 'voice') {
+    return `
+      ${common}
+      <div class="sphere" style="width:27px;height:27px;right:58px;top:39px"></div>
+      <div class="sphere" style="width:20px;height:20px;right:25px;top:68px"></div>
+      <div class="rayline" style="width:158px;left:12px;top:108px;transform:rotate(-20deg)"></div>
+      <div style="position:absolute;left:104px;top:20px;font-size:28px">◖◗</div>
+    `;
+  }
+
+  if(type === 'cluster') {
+    return `
+      ${common}
+      <div class="cursor" style="left:63px;top:43px"></div>
+      <div class="sphere" style="width:20px;height:20px;right:45px;top:40px"></div>
+      <div class="sphere" style="width:17px;height:17px;right:20px;top:65px"></div>
+      <div class="sphere" style="width:14px;height:14px;right:73px;top:76px"></div>
+    `;
+  }
+
+  if(type === 'hand') {
+    return `
+      ${common}
+      <div style="position:absolute;left:44px;top:34px;width:38px;height:58px;border:3px solid #141922;border-radius:18px 18px 12px 12px;background:rgba(255,255,255,.45);transform:rotate(-12deg)"></div>
+      <div style="position:absolute;left:35px;top:30px;width:10px;height:35px;border:2px solid #141922;border-radius:8px;background:rgba(255,255,255,.5);transform:rotate(-20deg)"></div>
+      <div style="position:absolute;left:50px;top:17px;width:9px;height:31px;border:2px solid #141922;border-radius:8px;background:rgba(255,255,255,.5)"></div>
+      <div style="position:absolute;left:64px;top:16px;width:9px;height:32px;border:2px solid #141922;border-radius:8px;background:rgba(255,255,255,.5)"></div>
+      <div style="position:absolute;left:78px;top:24px;width:9px;height:27px;border:2px solid #141922;border-radius:8px;background:rgba(255,255,255,.5);transform:rotate(12deg)"></div>
+      <div class="sphere" style="width:28px;height:28px;right:39px;top:52px"></div>
+    `;
+  }
+
+  if(type === 'transparent-cursor') {
+    return `
+      ${common}
+      <div class="sphere" style="width:32px;height:32px;right:52px;top:52px"></div>
+      <div style="position:absolute;left:50px;top:34px;width:72px;height:72px;border:2px solid rgba(20,25,34,.75);border-radius:50%;background:rgba(51,92,255,.16);box-shadow:inset 0 0 18px rgba(51,92,255,.18)"></div>
+      <div style="position:absolute;left:72px;top:56px;width:28px;height:28px;border:1px dashed rgba(20,25,34,.55);border-radius:50%"></div>
+    `;
+  }
+
+  if(type === 'expand') {
+    return `
+      ${common}
+      <div class="sphere" style="width:18px;height:18px;left:92px;top:59px"></div>
+      <div class="sphere" style="width:18px;height:18px;left:120px;top:42px"></div>
+      <div class="sphere" style="width:18px;height:18px;left:138px;top:72px"></div>
+      <div class="sphere" style="width:18px;height:18px;left:170px;top:35px"></div>
+      <div class="sphere" style="width:18px;height:18px;left:188px;top:84px"></div>
+      <div style="position:absolute;left:70px;top:62px;width:105px;height:2px;background:#141922;transform:rotate(-14deg)"></div>
+      <div style="position:absolute;left:70px;top:62px;width:130px;height:2px;background:#141922;transform:rotate(14deg)"></div>
+      <div style="position:absolute;left:74px;top:54px;font-family:'DM Mono';font-size:11px;color:#141922">EXPAND</div>
+    `;
+  }
+
+  if(type === 'progressive') {
+    return `
+      ${common}
+      <div style="position:absolute;left:35px;top:39px;width:42px;height:42px;border:2px solid #141922;border-radius:10px;background:rgba(255,255,255,.45)"></div>
+      <div style="position:absolute;left:96px;top:31px;width:56px;height:56px;border:2px solid #141922;border-radius:12px;background:rgba(255,255,255,.35)"></div>
+      <div style="position:absolute;left:174px;top:43px;width:34px;height:34px;border:2px solid #141922;border-radius:9px;background:rgba(255,255,255,.55)"></div>
+      <div class="rayline" style="width:48px;left:74px;top:62px;transform:rotate(-7deg)"></div>
+      <div class="rayline" style="width:35px;left:148px;top:61px;transform:rotate(9deg)"></div>
+      <div class="dot" style="left:186px;top:56px"></div>
+    `;
+  }
+
+  if(type === 'region') {
+    return `
+      ${common}
+      <div style="position:absolute;left:55px;top:32px;width:130px;height:76px;border:2px dashed #141922;border-radius:18px;background:rgba(201,239,102,.22)"></div>
+      <div class="sphere" style="width:18px;height:18px;left:78px;top:52px"></div>
+      <div class="sphere" style="width:16px;height:16px;left:112px;top:75px"></div>
+      <div class="sphere" style="width:19px;height:19px;left:145px;top:50px"></div>
+      <div class="sphere" style="width:14px;height:14px;left:168px;top:83px"></div>
+      <div style="position:absolute;left:72px;top:112px;font-family:'DM Mono';font-size:10px;color:#141922">GROUP SELECT</div>
+    `;
+  }
+
+  return `
+    ${common}
+    <div class="cursor" style="left:63px;top:43px"></div>
+    <div class="sphere" style="width:20px;height:20px;right:45px;top:40px"></div>
+    <div class="sphere" style="width:17px;height:17px;right:20px;top:65px"></div>
+    <div class="sphere" style="width:14px;height:14px;right:73px;top:76px"></div>
+  `;
 }
 function render(){
   const term = search.value.trim().toLowerCase();
