@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <selectionVault>
     <techniques>
-
         <technique id="raycasting">
             <name>Raycasting</name>
             <year>1992</year>
@@ -18,14 +17,13 @@
                 <tag>Far targets</tag>
             </tags>
         </technique>
-
         <technique id="virtual-hand">
             <name>Virtual Hand</name>
             <year>1997</year>
             <art>hand</art>
             <description>A direct 3D selection technique where the user controls a virtual hand to touch, grab, and manipulate nearby objects in the virtual environment.</description>
             <best>Natural selection and manipulation of nearby objects, especially when the interaction benefits from proprioception and direct hand-object contact.</best>
-            <limits> Less suitable for distant targets because the user must reach toward the object or rely on an extended mapping. It can also cause fatigue during repeated or long interactions.</limits>
+            <limits>Less suitable for distant targets because the user must reach toward the object or rely on an extended mapping. It can also cause fatigue during repeated or long interactions.</limits>
             <how>Move the tracked hand or controller so that the virtual hand overlaps with the target object, then confirm the selection by grabbing, pressing a button, or performing a pinch gesture.</how>
             <citation>Mine, M. R., Brooks Jr, F. P., &amp; Sequin, C. H. (1997, August). Moving objects in space: exploiting proprioception in virtual-environment interaction. In Proceedings of the 24th annual conference on Computer graphics and interactive techniques (pp. 19-26).</citation>
             <tags>
@@ -36,8 +34,6 @@
                 <tag>Object manipulation</tag>
             </tags>
         </technique>
-
-
         <technique id="cone-casting">
             <name>Cone Casting</name>
             <year>1994</year>
@@ -55,7 +51,6 @@
                 <tag>Dense targets</tag>
             </tags>
         </technique>
-
         <technique id="bubble-cursor">
             <name>Bubble Cursor</name>
             <year>2005</year>
@@ -72,7 +67,6 @@
                 <tag>Small targets</tag>
             </tags>
         </technique>
-
         <technique id="gaze-pinch">
             <name>Gaze + Pinch</name>
             <year>2020</year>
@@ -89,7 +83,6 @@
                 <tag>Far targets</tag>
             </tags>
         </technique>
-
         <technique id="voiceray">
             <name>VoiceRay</name>
             <year>2025</year>
@@ -107,7 +100,6 @@
                 <tag>Dense targets</tag>
             </tags>
         </technique>
-
         <technique id="aperture-selection">
             <name>Aperture Selection</name>
             <year>1996</year>
@@ -125,7 +117,6 @@
                 <tag>Far targets</tag>
             </tags>
         </technique>
-
         <technique id="volumetric-hand-cursor">
             <name>Volumetric Hand Cursor</name>
             <year>2019</year>
@@ -142,7 +133,6 @@
                 <tag>Near targets</tag>
             </tags>
         </technique>
-
         <technique id="gaze-voice">
             <name>Gaze + Voice</name>
             <year>2024</year>
@@ -160,46 +150,160 @@
                 <tag>Dense targets</tag>
             </tags>
         </technique>
-
-
         <technique id="go-go">
             <name>Go-Go</name>
             <year>1996</year>
-            <art>volume</art>
+            <art>hand</art>
             <description>A direct 3D selection and manipulation technique that extends the user's virtual reach using a non-linear mapping between the real hand and the virtual hand.</description>
             <best>Selecting and manipulating objects that are beyond normal arm reach while preserving the feeling of direct hand-based interaction.</best>
             <limits>The non-linear hand mapping can reduce precision and may require practice, especially when switching between near objects and extended-reach objects.</limits>
-            <how> Move the tracked hand toward the target. For nearby objects, the virtual hand follows the real hand closely. After a threshold distance, the virtual hand moves farther than the real hand, allowing the user to reach distant objects without physically walking.</how>
-            <citation>  Poupyrev, I., Billinghurst, M., Weghorst, S., &amp; Ichikawa, T. (1996). The Go-Go Interaction Technique: Non-Linear Mapping for Direct Manipulation in VR. Proceedings of the 9th Annual ACM Symposium on User Interface Software and Technology, 79–80.</citation>
-
-          <tags>
-            <tag>Controller</tag>
-            <tag>Hand tracking</tag>
-            <tag>Direct selection</tag>
-            <tag>Near targets</tag>
-            <tag>Far targets</tag>
-            <tag>Object manipulation</tag>
-          </tags>
+            <how>Move the tracked hand toward the target. For nearby objects, the virtual hand follows the real hand closely. After a threshold distance, the virtual hand moves farther than the real hand, allowing the user to reach distant objects without physically walking.</how>
+            <citation>Poupyrev, I., Billinghurst, M., Weghorst, S., &amp; Ichikawa, T. (1996). The Go-Go Interaction Technique: Non-Linear Mapping for Direct Manipulation in VR. Proceedings of the 9th Annual ACM Symposium on User Interface Software and Technology, 79–80.</citation>
+            <tags>
+                <tag>Controller</tag>
+                <tag>Hand tracking</tag>
+                <tag>Direct selection</tag>
+                <tag>Near targets</tag>
+                <tag>Far targets</tag>
+                <tag>Object manipulation</tag>
+            </tags>
         </technique>
-
-
         <technique id="flexible-pointer">
-          <name>Flexible Pointer</name>
-          <year>2003</year>
-          <art>ray</art>
-          <description>A flexible 3D pointing technique that bends the pointer path, allowing users to select fully or partially obscured objects in augmented and virtual reality environments.</description>
-          <best>Selecting objects that are partially hidden, visually occluded, or difficult to reach with a straight ray-based pointing technique.</best>
-          <limits>The curved pointer may require additional control and can be harder to understand than simple raycasting, especially when users need to adjust the pointer shape precisely.</limits>
-          <how>The user controls a virtual pointer whose shape can bend around occluding objects. Instead of pointing only along a straight line, the pointer can curve toward a target that is not directly visible or not easily reachable with standard egocentric pointing.</how>
-          <citation>Olwal, A., &amp; Feiner, S. (2003). The Flexible Pointer: An Interaction Technique for Selection in Augmented and Virtual Reality. UIST '03 Conference Supplement, ACM Symposium on User Interface Software and Technology, 81–82.</citation>
+            <name>Flexible Pointer</name>
+            <year>2003</year>
+            <art>ray</art>
+            <description>A flexible 3D pointing technique that bends the pointer path, allowing users to select fully or partially obscured objects in augmented and virtual reality environments.</description>
+            <best>Selecting objects that are partially hidden, visually occluded, or difficult to reach with a straight ray-based pointing technique.</best>
+            <limits>The curved pointer may require additional control and can be harder to understand than simple raycasting, especially when users need to adjust the pointer shape precisely.</limits>
+            <how>The user controls a virtual pointer whose shape can bend around occluding objects. Instead of pointing only along a straight line, the pointer can curve toward a target that is not directly visible or not easily reachable with standard egocentric pointing.</how>
+            <citation>Olwal, A., &amp; Feiner, S. (2003). The Flexible Pointer: An Interaction Technique for Selection in Augmented and Virtual Reality. UIST '03 Conference Supplement, ACM Symposium on User Interface Software and Technology, 81–82.</citation>
+            <tags>
+                <tag>Controller</tag>
+                <tag>Ray-based</tag>
+                <tag>Disambiguation</tag>
+                <tag>Occluded targets</tag>
+                <tag>Far targets</tag>
+            </tags>
+        </technique>
+        <technique id="homer">
+            <name>HOMER</name>
+            <year>1997</year>
+            <art>ray</art>
+            <description>A remote object selection and manipulation technique that combines ray-based selection with hand-centered manipulation after the object is grabbed.</description>
+            <best>Grabbing and manipulating remote objects in immersive virtual environments without requiring the user to physically travel to the object.</best>
+            <limits>The transition from ray-based selection to hand-centered manipulation can require practice, and remote manipulation may reduce precision compared with direct nearby manipulation.</limits>
+            <how>Point a ray at a remote object and confirm the grab. Once selected, the object is attached to the user's virtual hand so it can be moved and manipulated through hand or controller motion.</how>
+            <citation>Bowman, D. A., &amp; Hodges, L. F. (1997, April). An evaluation of techniques for grabbing and manipulating remote objects in immersive virtual environments. In Proceedings of the 1997 Symposium on Interactive 3D Graphics (pp. 35-ff).</citation>
+            <tags>
+                <tag>Controller</tag>
+                <tag>Ray-based</tag>
+                <tag>Remote manipulation</tag>
+                <tag>Far targets</tag>
+                <tag>Object manipulation</tag>
+            </tags>
+        </technique>
+        <technique id="depth-ray">
+            <name>Depth Ray</name>
+            <year>2006</year>
+            <art>ray</art>
+            <description>A 3D selection technique for volumetric displays that extends ray-based pointing by adding control over depth, allowing users to select targets located inside a true 3D volume.</description>
+            <best>Selecting objects in volumetric displays where targets may appear at different depths and where a simple 2D cursor or direct 3D point cursor can be inefficient.</best>
+            <limits>It is designed specifically for volumetric display interaction, so its usefulness may depend on the display hardware and the available input device. Users also need to control both pointing direction and target depth.</limits>
+            <how>The user points toward the target region and adjusts the selection depth along the ray until the intended volumetric target is reached, then confirms the selection.</how>
+            <citation>Grossman, T., &amp; Balakrishnan, R. (2006, October). The design and evaluation of selection techniques for 3D volumetric displays. In Proceedings of the 19th Annual ACM Symposium on User Interface Software and Technology (pp. 3–12).</citation>
+            <tags>
+                <tag>Controller</tag>
+                <tag>Ray-based</tag>
+                <tag>Depth control</tag>
+                <tag>Volumetric display</tag>
+                <tag>Small targets</tag>
+                <tag>Dense targets</tag>
+            </tags>
+        </technique>
+        <technique id="port">
+            <name>PORT</name>
+            <year>2005</year>
+            <art>region</art>
+            <description>A 3D multiple object selection technique that allows users to select a group of objects in an immersive virtual environment using a spatial region-based interaction.</description>
+            <best>Selecting multiple objects at once, especially when targets are grouped, clustered, or when selecting objects one by one would be inefficient.</best>
+            <limits>The technique can become less precise when objects are densely packed or when intended and unintended objects are close to each other within the selection region.</limits>
+            <how>The user specifies a spatial selection region around the desired objects. Objects that fall within the defined region are selected as a group, reducing the need for repeated single-object selections.</how>
+            <citation>Lucas, J. F. (2005). Design and evaluation of 3D multiple object selection techniques. Doctoral dissertation, Virginia Tech.</citation>
+            <tags>
+                <tag>Multiple selection</tag>
+                <tag>Group selection</tag>
+                <tag>Region-based</tag>
+                <tag>Dense targets</tag>
+                <tag>Clustered targets</tag>
+            </tags>
+        </technique>
+        <technique id="squad">
+            <name>SQUAD</name>
+            <year>2011</year>
+            <art>progressive</art>
+            <description>A progressive refinement technique for rapid and accurate 3D selection, where the system repeatedly narrows a group of candidate targets until the intended object can be selected. </description>
+            <best>Selecting small, dense, or distant targets when many objects are close together and a single pointing action may not be accurate enough.</best>
+            <limits>SQUAD may require multiple refinement steps, so it can be less efficient for simple targets that can be selected directly. It is most useful when the initial selection is ambiguous. </limits>
+            <how>The user first indicates a group of possible targets. The system divides the candidate set into smaller groups, and the user repeatedly chooses the group containing the intended target until the final object is selected. </how>
+            <citation>Kopper, R., Bacim, F., &amp; Bowman, D. A. (2011). Rapid and accurate 3D selection by progressive refinement. In 2011 IEEE Symposium on 3D User Interfaces (3DUI). IEEE. </citation>
+            <tags>
+                <tag>Controller</tag>
+                <tag>Disambiguation</tag>
+                <tag>Progressive refinement</tag>
+                <tag>Dense targets</tag>
+                <tag>Small targets</tag>
+                <tag>Far targets</tag>
+            </tags>
+        </technique>
+
+        <technique id="expand">
+          <name>Expand</name>
+          <year>2012</year>
+          <art>expand</art>
+
+          <description>  A 3D selection technique for dense and dynamic virtual environments that temporarily expands the candidate objects so the user can select one target more easily. </description>
+
+          <best>Selecting small, dense, or moving objects in game-based virtual environments where targets are close together and difficult to acquire with standard pointing. </best>
+
+          <limits> The technique changes the visual arrangement of candidate objects during selection, which may interrupt the original spatial layout. It is most useful when selection accuracy is more important than preserving the scene exactly during the selection step.</limits>
+
+          <how> The user first indicates a dense group of possible targets. The system then expands or spreads the candidate objects apart, making them easier to distinguish and select. After the user selects the intended target, the environment can return to its normal arrangement.</how>
+
+          <citation> Cashion, J., Wingrave, C., &amp; LaViola Jr, J. J. (2012). Dense and dynamic 3D selection for game-based virtual environments. IEEE Transactions on Visualization and Computer Graphics, 18(4), 634–642. </citation>
+
           <tags>
             <tag>Controller</tag>
-            <tag>Ray-based</tag>
             <tag>Disambiguation</tag>
-            <tag>Occluded targets</tag>
-            <tag>Far targets</tag>
+            <tag>Expansion-based</tag>
+            <tag>Dense targets</tag>
+            <tag>Small targets</tag>
+            <tag>Dynamic targets</tag>
           </tags>
         </technique>
+
+        <technique id="silk-cursor">
+          <name>Silk Cursor</name>
+          <year>1994</year>
+          <art>transparent-cursor</art>
+          <description>A 3D target acquisition technique that uses a semi-transparent cursor to reduce visual occlusion and help users acquire targets in 3D space.</description>
+
+          <best>Selecting or acquiring 3D targets when cursor visibility and target visibility both matter, especially in dynamic 3D scenes where an opaque cursor could hide the target.</best>
+
+          <limits>Transparency can make the cursor less visually salient, and the technique depends on careful visual design so users can still judge the cursor's position and relation to the target.</limits>
+
+          <how>The user controls a semi-transparent 3D cursor and moves it toward the target. Because the cursor is partially transparent, the user can see target geometry through or behind the cursor while aligning the cursor for acquisition.</how>
+
+          <citation>Zhai, S., Buxton, W., &amp; Milgram, P. (1994). The “Silk Cursor”: Investigating transparency for 3D target acquisition. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '94), 459–464.</citation>
+
+          <tags>
+            <tag>3D cursor</tag>
+            <tag>Transparency-based</tag>
+            <tag>Visual feedback</tag>
+            <tag>Dynamic targets</tag>
+            <tag>Small targets</tag>
+          </tags>
+        </technique>
+
 
     </techniques>
 </selectionVault>
