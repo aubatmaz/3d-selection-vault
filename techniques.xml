@@ -64,7 +64,7 @@
             <best>Dense scenes with many small selectable objects.</best>
             <limits>Can feel unpredictable when target positions change quickly.</limits>
             <how>Move the cursor near a target; the selection region adapts to isolate it.</how>
-            <citation>Grossman &amp; Balakrishnan, 2005 · Adaptive target acquisition.</citation>
+            <citation>Vanacken, L., Grossman, T., &amp; Coninx, K. (2007, March). Exploring the effects of environment density and target visibility on object selection in 3D virtual environments. In 2007 IEEE symposium on 3D user interfaces. IEEE.</citation>
             <tags>
                 <tag>Controller</tag>
                 <tag>Proximity-based</tag>
@@ -134,7 +134,7 @@
             <best>Near-field selection and embodied manipulation.</best>
             <limits>Arm fatigue and occlusion can increase in long sessions.</limits>
             <how>Move a hand-aligned cursor volume to intersect a target, then pinch.</how>
-            <citation>Hand-centric direct selection pattern.</citation>
+            <citation>Lopes, D. S., de Figueiredo Parreira, P. D., Paulo, S. F., Nunes, V., Rego, P. A., Neves, M. C., ... &amp; Jorge, J. A. (2017). On the utility of 3D hand cursors to explore medical volume datasets with a touchless interface. Journal of biomedical informatics, 72, 140-149.</citation>
             <tags>
                 <tag>Hand tracking</tag>
                 <tag>Volume-based</tag>
@@ -151,7 +151,7 @@
             <best>Highly ambiguous scenes, especially when targets overlap.</best>
             <limits>Depends on reliable speech recognition and concise labels.</limits>
             <how>Look toward the target group and speak a target name or ordinal.</how>
-            <citation>Multimodal disambiguation pattern for XR.</citation>
+            <citation>Bashar, M. R., Mutasim, A. K., Pfeuffer, K., &amp; Batmaz, A. U. (2026, April). Eyes on Many: Evaluating Gaze, Hand, and Voice for Multi-Object Selection in Extended Reality. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (pp. 1-14).</citation>
             <tags>
                 <tag>Gaze</tag>
                 <tag>Voice</tag>
