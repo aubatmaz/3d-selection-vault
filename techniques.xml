@@ -456,5 +456,58 @@
           </tags>
         </technique>
 
+
+        <technique id="speech-filtered-bubble-ray">
+          <name>Speech-Filtered Bubble Ray</name>
+          <year>2007</year>
+          <art>voice</art>
+
+          <description>A multimodal target acquisition technique for large display walls that combines Bubble Ray pointing with speech-based filtering to reduce the number of possible targets.</description>
+
+          <best>Selecting targets on large display walls when many objects are visible and the user can use speech to narrow the candidate set.</best>
+
+          <limits>The technique depends on reliable speech recognition and on targets having useful verbal properties or labels for filtering. It may be less suitable in noisy environments or when speech input is socially inappropriate.</limits>
+
+          <how>The user points toward a group of possible targets with a bubble ray and then speaks a filtering term, such as a target property or category. The system uses the speech input to reduce the candidate set and make the intended target easier to acquire.</how>
+
+          <citation>Tse, E., Hancock, M., &amp; Greenberg, S. (2007, November). Speech-filtered bubble ray: Improving target acquisition on display walls. In Proceedings of the 9th International Conference on Multimodal Interfaces (pp. 307–314).</citation>
+
+          <tags>
+            <tag>Voice</tag>
+            <tag>Ray-based</tag>
+            <tag>Bubble cursor</tag>
+            <tag>Multimodal</tag>
+            <tag>Disambiguation</tag>
+            <tag>Dense targets</tag>
+            <tag>Large displays</tag>
+          </tags>
+        </technique>
+
+    <technique id="implicit-fan-cursor">
+      <name>Implicit Fan Cursor</name>
+      <year>2014</year>
+      <art>progressive</art>
+
+      <description>A velocity-dependent area cursor that changes its activation area according to the speed and direction of cursor movement.</description>
+
+      <best>Improving target acquisition when cursor movement speed provides useful information about the user's intention, especially during transitions between fast movement and precise selection.</best>
+
+      <limits>The technique depends on interpreting cursor velocity correctly. It may be less predictable when users move irregularly or when the target layout causes several possible objects to fall within the changing activation area.</limits>
+
+      <how>The user moves the cursor toward a target. When the cursor moves slowly, the activation area behaves more like a directional fan or spotlight. When the cursor moves faster, the activation area becomes more like a circular area cursor, helping acquire targets with less precise pointing.</how>
+
+      <citation>Su, X., Au, O. K. C., &amp; Lau, R. W. (2014, April). The Implicit Fan Cursor: A velocity dependent area cursor. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 753–762).</citation>
+
+      <tags>
+        <tag>Area cursor</tag>
+        <tag>Velocity-dependent</tag>
+        <tag>Fan-based</tag>
+        <tag>Mouse</tag>
+        <tag>Small targets</tag>
+        <tag>Dense targets</tag>
+      </tags>
+    </technique>
+
+
     </techniques>
 </selectionVault>
