@@ -1,0 +1,816 @@
+{
+  "techniques": [
+    {
+      "id": "prism",
+      "name": "PRISM",
+      "aliases": [
+        "Precise and Rapid Interaction through Scaled Manipulation"
+      ],
+      "description": "Adjusts control-display gain according to hand movement speed to support precise selection and manipulation in immersive environments.",
+      "introducedYear": 2005,
+      "primaryTask": "manipulation",
+      "tasks": [
+        "manipulation",
+        "selection"
+      ],
+      "interactionModalities": [
+        "hand"
+      ],
+      "modalityDetails": null,
+      "inputDevices": [],
+      "deviceDetails": null,
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "taxonomy": {
+        "selectionMechanism": null,
+        "controlMapping": [
+          "adaptive",
+          "scaled"
+        ],
+        "targetCardinality": null,
+        "environment": [
+          "VR"
+        ],
+        "targetProperties": null,
+        "confirmationMethod": null
+      },
+      "tags": [],
+      "advantages": [],
+      "limitations": [],
+      "howItWorks": null,
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3.2.2 Control-display ratio; references [37\u201338]",
+          "page": null,
+          "quote": null,
+          "notes": "Describes velocity-dependent PRISM mapping and cites Frees 2005 and 2007. Supports tasks and earliest identified 2005 publication; original full text unavailable."
+        }
+      ],
+      "verificationStatus": "machine-verified",
+      "verification": {
+        "verifiedBy": "Codex: literature extraction",
+        "verifiedDate": "2026-08-30",
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf"
+        ],
+        "notes": "Evidence supports named technique, tasks and listed taxonomy. Introduction year is earliest identified publication, not a completed historical priority audit. Remaining fields unknown; human review required."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "worlds-in-miniature",
+      "name": "Worlds in Miniature",
+      "aliases": [
+        "WIM",
+        "World-in-Miniature"
+      ],
+      "description": "A hand-held miniature of a virtual environment provides linked proxies for selecting and manipulating objects and changing viewpoint.",
+      "introducedYear": 1995,
+      "primaryTask": "manipulation",
+      "tasks": [
+        "manipulation",
+        "selection",
+        "navigation"
+      ],
+      "interactionModalities": [
+        "hand",
+        "tangible"
+      ],
+      "modalityDetails": null,
+      "inputDevices": [
+        "Tracked clipboard",
+        "Tracked buttonball"
+      ],
+      "deviceDetails": null,
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "taxonomy": {
+        "selectionMechanism": null,
+        "controlMapping": [
+          "scaled"
+        ],
+        "targetCardinality": null,
+        "environment": [
+          "VR"
+        ],
+        "targetProperties": null,
+        "confirmationMethod": [
+          "button"
+        ]
+      },
+      "tags": [],
+      "advantages": [],
+      "limitations": [],
+      "howItWorks": null,
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "stoakley-1995-wim",
+          "section": "Abstract; System Description; Interaction Techniques Using the WIM",
+          "page": "1\u20133 (PDF)",
+          "quote": null,
+          "notes": "Names WIM; describes linked miniature proxies, manipulation, selection and navigation, with tracked physical props and button confirmation."
+        }
+      ],
+      "verificationStatus": "machine-verified",
+      "verification": {
+        "verifiedBy": "Codex: literature extraction",
+        "verifiedDate": "2026-08-30",
+        "sources": [
+          "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf"
+        ],
+        "notes": "Evidence supports named technique, tasks and listed taxonomy. Introduction year is earliest identified publication, not a completed historical priority audit. Remaining fields unknown; human review required."
+      },
+      "provenance": [
+        {
+          "source": "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "stoakley-1995-wim",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    }
+  ],
+  "enrichments": [
+    {
+      "match": "go-go",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ]
+    },
+    {
+      "match": "raycasting",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ]
+    },
+    {
+      "match": "aperture-selection",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ]
+    },
+    {
+      "match": "cone-casting",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ]
+    },
+    {
+      "match": "squad",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ]
+    },
+    {
+      "match": "homer",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "4.2.1 Selection",
+          "page": "9",
+          "quote": null,
+          "notes": "Discusses the named technique and its interaction context."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://mdpi-res.com/d_attachment/electronics/electronics-13-00600/article_deploy/electronics-13-00600-v2.pdf?version=1706851874",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-3dui-2024",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ],
+      "aliases": [
+        "Hand-centered Object Manipulation Extending Ray-casting"
+      ],
+      "tasks": [
+        "manipulation",
+        "selection"
+      ]
+    },
+    {
+      "match": "raycasting",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "4.2.1 Selection",
+          "page": "9",
+          "quote": null,
+          "notes": "Discusses the named technique and its interaction context."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://mdpi-res.com/d_attachment/electronics/electronics-13-00600/article_deploy/electronics-13-00600-v2.pdf?version=1706851874",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-3dui-2024",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ]
+    },
+    {
+      "match": "tulip-menu",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "4.1.1 Menus",
+          "page": "6",
+          "quote": null,
+          "notes": "Discusses the named technique and its interaction context."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://mdpi-res.com/d_attachment/electronics/electronics-13-00600/article_deploy/electronics-13-00600-v2.pdf?version=1706851874",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-3dui-2024",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ],
+      "aliases": [
+        "Three-Up, Labels In Palm"
+      ]
+    },
+    {
+      "match": "go-go",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "7.3 Comparison framework",
+          "page": "98:20",
+          "quote": null,
+          "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://pure.tudelft.nl/ws/portalfiles/portal/235391176/3706417.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-yu-2024",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ],
+      "relationships": [
+        {
+          "techniqueId": "raycasting",
+          "type": "compared-with",
+          "notes": "Comparison reported by Yu et al.; no historical lineage inferred.",
+          "evidence": [
+            {
+              "publicationId": "seed-yu-2024",
+              "section": "7.3 Comparison framework",
+              "page": "98:20",
+              "quote": null,
+              "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match": "raycasting",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "7.3 Comparison framework",
+          "page": "98:20",
+          "quote": null,
+          "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://pure.tudelft.nl/ws/portalfiles/portal/235391176/3706417.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-yu-2024",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ],
+      "relationships": [
+        {
+          "techniqueId": "go-go",
+          "type": "compared-with",
+          "notes": "Comparison reported by Yu et al.; no historical lineage inferred.",
+          "evidence": [
+            {
+              "publicationId": "seed-yu-2024",
+              "section": "7.3 Comparison framework",
+              "page": "98:20",
+              "quote": null,
+              "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match": "bubble-raycasting",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "7.3 Comparison framework",
+          "page": "98:20",
+          "quote": null,
+          "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://pure.tudelft.nl/ws/portalfiles/portal/235391176/3706417.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-yu-2024",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        }
+      ]
+    }
+  ],
+  "techniquePublications": [
+    {
+      "techniqueId": "go-go",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "raycasting",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "aperture-selection",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "cone-casting",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "squad",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3 Selection techniques; Table 1",
+          "page": null,
+          "quote": null,
+          "notes": "Substantive technique classification and comparison of selection approaches."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "homer",
+      "publicationId": "seed-3dui-2024",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "4.2.1 Selection",
+          "page": "9",
+          "quote": null,
+          "notes": "Discusses the named technique and its interaction context."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "raycasting",
+      "publicationId": "seed-3dui-2024",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "4.2.1 Selection",
+          "page": "9",
+          "quote": null,
+          "notes": "Discusses the named technique and its interaction context."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "tulip-menu",
+      "publicationId": "seed-3dui-2024",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "4.1.1 Menus",
+          "page": "6",
+          "quote": null,
+          "notes": "Discusses the named technique and its interaction context."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "go-go",
+      "publicationId": "seed-yu-2024",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "7.3 Comparison framework",
+          "page": "98:20",
+          "quote": null,
+          "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "raycasting",
+      "publicationId": "seed-yu-2024",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "7.3 Comparison framework",
+          "page": "98:20",
+          "quote": null,
+          "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "bubble-raycasting",
+      "publicationId": "seed-yu-2024",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "7.3 Comparison framework",
+          "page": "98:20",
+          "quote": null,
+          "notes": "Survey summarizes Lu et al. 2020 comparison. Bubble Ray E/A variant identity remains unresolved; not merged as aliases."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "prism",
+      "publicationId": "frees-2005-prism",
+      "relationship": "introduced",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3.2.2 Control-display ratio; references [37\u201338]",
+          "page": null,
+          "quote": null,
+          "notes": "Describes velocity-dependent PRISM mapping and cites Frees 2005 and 2007. Supports tasks and earliest identified 2005 publication; original full text unavailable."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "prism",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "section": "3.2.2 Control-display ratio; references [37\u201338]",
+          "page": null,
+          "quote": null,
+          "notes": "Describes velocity-dependent PRISM mapping and cites Frees 2005 and 2007. Supports tasks and earliest identified 2005 publication; original full text unavailable."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "worlds-in-miniature",
+      "publicationId": "stoakley-1995-wim",
+      "relationship": "introduced",
+      "evidence": [
+        {
+          "publicationId": "stoakley-1995-wim",
+          "section": "Abstract; System Description; Interaction Techniques Using the WIM",
+          "page": "1\u20133 (PDF)",
+          "quote": null,
+          "notes": "Names WIM; describes linked miniature proxies, manipulation, selection and navigation, with tracked physical props and button confirmation."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "techniqueId": "worlds-in-miniature",
+      "publicationId": "seed-3dui-2024",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "4.1.1 Menus",
+          "page": "6",
+          "quote": null,
+          "notes": "Discusses miniature-world interaction; original attribution checked separately against Stoakley 1995."
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "publicationCitations": [
+    {
+      "citingPublicationId": "seed-weise-2019",
+      "citedPublicationId": "legacy-paper-go-go",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-weise-2019",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-3dui-2024",
+      "citedPublicationId": "legacy-paper-homer",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-3dui-2024",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-yu-2024",
+      "citedPublicationId": "frees-2005-prism",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-weise-2019",
+      "citedPublicationId": "frees-2007-prism",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-weise-2019",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-weise-2019",
+      "citedPublicationId": "stoakley-1995-wim",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-weise-2019",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-yu-2024",
+      "citedPublicationId": "legacy-paper-aperture-selection",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-weise-2019",
+      "citedPublicationId": "legacy-paper-cone-casting",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-weise-2019",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-yu-2024",
+      "citedPublicationId": "legacy-paper-bubble-raycasting",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "frees-2007-prism",
+      "citedPublicationId": "mapes-1995-twohanded",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "frees-2007-prism",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "DOI present in source Crossref reference list; citation alone does not establish a technique role."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-yu-2024",
+      "citedPublicationId": "frees-2005-prism",
+      "discoveryMethod": "forward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-yu-2024",
+          "section": "References",
+          "page": null,
+          "quote": null,
+          "notes": "OpenAlex cites relation retrieved from PRISM 2005; also present in the seed reference list."
+        }
+      ]
+    }
+  ],
+  "forwardProvenance": [
+    {
+      "publicationId": "seed-yu-2024",
+      "provenance": {
+        "source": "https://api.openalex.org/works?filter=cites%3AW3151601593&per-page=5",
+        "discoveryMethod": "forward-citation",
+        "discoveredFromPublicationId": "frees-2005-prism",
+        "retrievedAt": "2026-08-30",
+        "notes": "One retained match among five forward-citation candidates; other four deferred for content review."
+      }
+    }
+  ],
+  "reviewQueue": [
+    {
+      "id": "review-bubble-variants",
+      "entityType": "technique",
+      "entityId": "bubble-raycasting",
+      "reasons": [
+        "Bubble Ray E and A in Lu 2020 may be separate variants. Do not equate them with the legacy generic record or add aliases without original-paper review."
+      ],
+      "status": "open"
+    }
+  ]
+}

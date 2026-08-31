@@ -1,0 +1,5 @@
+# Keep dependency lifecycle scripts disabled; platform packages supply the binaries.
+allowBuilds:
+  esbuild: false
+  sharp: false
+  workerd: false

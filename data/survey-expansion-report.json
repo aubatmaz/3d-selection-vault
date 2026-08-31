@@ -1,0 +1,15 @@
+{
+  "identified": 32,
+  "tableEntries": 31,
+  "additionalTextEntries": 1,
+  "existingTechniques": 12,
+  "newTechniques": 20,
+  "publicationsAdded": 17,
+  "duplicateTechniquesAvoided": 12,
+  "existingPublicationsReused": 12,
+  "surveyLinksAdded": 26,
+  "totalSurveyLinks": 32,
+  "citationEdgesAdded": 29,
+  "reviewItems": 29,
+  "scope": "All 31 named entries in Table 1 (p. 123), plus World-in-Miniature discussed in section 4.3 (p. 131). Not exhaustive coverage of every supporting design pattern or bibliography item."
+}

@@ -1,0 +1,5090 @@
+{
+  "schemaVersion": 3,
+  "techniques": [
+    {
+      "id": "virtual-pads",
+      "name": "Virtual pads",
+      "aliases": [],
+      "description": "Decoupled pointing plane.",
+      "howItWorks": "Decoupled pointing plane. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2007,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Decoupled pointing plane"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Virtual pads. Selection tool/control: Decoupled pointing plane. Reference [2]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "direct-image-plane",
+      "name": "Direct image plane",
+      "aliases": [],
+      "description": "Screen-normal ray.",
+      "howItWorks": "Screen-normal ray. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2003,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Screen-normal ray"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Direct image plane. Selection tool/control: Screen-normal ray. Reference [53]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "raycasting-from-eye",
+      "name": "Raycasting from the eye",
+      "aliases": [],
+      "description": "Eye-origin wrist-oriented ray.",
+      "howItWorks": "Eye-origin wrist-oriented ray. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2008,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Eye-origin wrist-oriented ray"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Raycasting from the eye. Selection tool/control: Eye-origin wrist-oriented ray. Reference [8]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "view-finder",
+      "name": "View finder",
+      "aliases": [],
+      "description": "Eye-origin ray feedback.",
+      "howItWorks": "Eye-origin ray feedback. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2009,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Eye-origin ray feedback"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: View finder. Selection tool/control: Eye-origin ray feedback. Reference [7]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "eye-gaze-selection",
+      "name": "Eye-gazed selection",
+      "aliases": [],
+      "description": "Gaze-directed ray.",
+      "howItWorks": "Gaze-directed ray. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2000,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [
+        "gaze"
+      ],
+      "inputDevices": [
+        "Eye tracker"
+      ],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [
+            "gaze"
+          ],
+          "inputDevices": [
+            "Eye tracker"
+          ],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "gaze"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Gaze-directed ray"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Eye-gazed selection. Selection tool/control: Gaze-directed ray. Reference [87]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "occlusion-selection",
+      "name": "Occlusion selection",
+      "aliases": [],
+      "description": "Eye-to-hand ray.",
+      "howItWorks": "Eye-to-hand ray. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 1997,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Eye-to-hand ray"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Occlusion selection. Selection tool/control: Eye-to-hand ray. Reference [73]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "one-eyed-cursor",
+      "name": "One-eyed cursor",
+      "aliases": [],
+      "description": "Monocular cursor.",
+      "howItWorks": "Monocular cursor. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 1997,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Monocular cursor"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: One-eyed cursor. Selection tool/control: Monocular cursor. Reference [98]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "two-handed-pointing",
+      "name": "Two-handed pointing",
+      "aliases": [],
+      "description": "Two-hand positional ray.",
+      "howItWorks": "Two-hand positional ray. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 1997,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Two-hand positional ray"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Two-handed pointing. Selection tool/control: Two-hand positional ray. Reference [64]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "intenselect",
+      "name": "IntenSelect",
+      "aliases": [],
+      "description": "Behavior-rated ray.",
+      "howItWorks": "Behavior-rated ray. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2005,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Behavior-rated ray"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: IntenSelect. Selection tool/control: Behavior-rated ray. Reference [30]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "smart-ray",
+      "name": "Smart ray",
+      "aliases": [],
+      "description": "Multiple pointing directions.",
+      "howItWorks": "Multiple pointing directions. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2006,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "disambiguation"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Multiple pointing directions"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Smart ray. Selection tool/control: Multiple pointing directions. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "sticky-ray",
+      "name": "Sticky ray",
+      "aliases": [],
+      "description": "Heuristic cone.",
+      "howItWorks": "Heuristic cone. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2004,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "volume-based"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Heuristic cone"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Sticky ray. Selection tool/control: Heuristic cone. Reference [85]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "sense-shapes",
+      "name": "Sense shapes",
+      "aliases": [],
+      "description": "Behavior-rated selection volume.",
+      "howItWorks": "Behavior-rated selection volume. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2003,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "volume-based"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Behavior-rated selection volume"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Sense shapes. Selection tool/control: Behavior-rated selection volume. Reference [68]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "shadow-cone-selection",
+      "name": "Shadow cone selection",
+      "aliases": [],
+      "description": "Manually disambiguated cone.",
+      "howItWorks": "Manually disambiguated cone. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2004,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "volume-based"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Manually disambiguated cone"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Shadow cone selection. Selection tool/control: Manually disambiguated cone. Reference [84]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "probabilistic-pointing",
+      "name": "Probabilistic pointing",
+      "aliases": [],
+      "description": "Probability-ranked frustum.",
+      "howItWorks": "Probability-ranked frustum. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2006,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "volume-based"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Probability-ranked frustum"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Probabilistic pointing. Selection tool/control: Probability-ranked frustum. Reference [80]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "enhanced-cone-selection",
+      "name": "Enhanced cone selection",
+      "aliases": [],
+      "description": "Behavior-rated cone.",
+      "howItWorks": "Behavior-rated cone. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2006,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "volume-based"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Behavior-rated cone"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Enhanced cone selection. Selection tool/control: Behavior-rated cone. Reference [83]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "isith",
+      "name": "iSith",
+      "aliases": [],
+      "description": "Two-ray intersection.",
+      "howItWorks": "Two-ray intersection. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2006,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Two-ray intersection"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: iSith. Selection tool/control: Two-ray intersection. Reference [71]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "lock-ray",
+      "name": "Lock ray",
+      "aliases": [],
+      "description": "Constrained ray cursor.",
+      "howItWorks": "Constrained ray cursor. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2006,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "disambiguation"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Constrained ray cursor"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Lock ray. Selection tool/control: Constrained ray cursor. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "flow-ray",
+      "name": "Flow ray",
+      "aliases": [],
+      "description": "Ray with secondary menu.",
+      "howItWorks": "Ray with secondary menu. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2006,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "disambiguation"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Ray with secondary menu"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Flow ray. Selection tool/control: Ray with secondary menu. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "friction-surfaces",
+      "name": "Friction surfaces",
+      "aliases": [],
+      "description": "Target-dependent pointing gain.",
+      "howItWorks": "Target-dependent pointing gain. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2007,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Target-dependent pointing gain"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Friction surfaces. Selection tool/control: Target-dependent pointing gain. Reference [1]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    },
+    {
+      "id": "adaptive-pointing",
+      "name": "Adaptive Pointing",
+      "aliases": [
+        "Adaptative pointing"
+      ],
+      "description": "Velocity/offset-dependent pointing gain.",
+      "howItWorks": "Velocity/offset-dependent pointing gain. See the survey evidence and associated source for operational details.",
+      "introducedYear": null,
+      "earliestIdentifiedYear": 2009,
+      "introductionStatus": "earliest-identified",
+      "primaryTask": "selection",
+      "tasks": [
+        "selection"
+      ],
+      "interactionModalities": [],
+      "inputDevices": [],
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "modalityDetails": null,
+      "deviceDetails": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [],
+          "inputDevices": [],
+          "environment": null,
+          "controlMapping": null,
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": [
+            "pointing"
+          ],
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": null
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [
+        "Selection",
+        "2013 selection survey",
+        "Velocity/offset-dependent pointing gain"
+      ],
+      "advantages": [],
+      "limitations": [],
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Adaptative pointing. Selection tool/control: Velocity/offset-dependent pointing gain. Reference [48]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Named technique extracted from Table 1; not human-verified."
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": null
+    }
+  ],
+  "publications": [
+    {
+      "id": "survey2013-ref-1",
+      "title": "Anisomorphic ray-casting manipulation for interacting with 2D GUIs",
+      "authors": [
+        "Carlos Andujar",
+        "Ferran Argelaguet"
+      ],
+      "year": 2007,
+      "venue": "Computers &amp; Graphics",
+      "doi": "10.1016/j.cag.2006.09.003",
+      "url": "https://doi.org/10.1016/j.cag.2006.09.003",
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [1]. Metadata: https://api.crossref.org/works/10.1016/j.cag.2006.09.003; exact title and year match. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 1,
+        "bibliographicLookup": "exact title and year match"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "journal",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "1",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-2",
+      "title": "Virtual pads: decoupling motor space and visual space for flexible manipulation of 2D windows within VEs",
+      "authors": [
+        "C. Andujar",
+        "F. Argelaguet"
+      ],
+      "year": 2007,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [2]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 2,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "2",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-7",
+      "title": "Visual feedback techniques for virtual pointing on stereoscopic displays",
+      "authors": [
+        "F. Argelaguet",
+        "C. Andujar"
+      ],
+      "year": 2009,
+      "venue": "ACM VRST",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [7]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 7,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "7",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-8",
+      "title": "Overcoming eye-hand visibility mismatch in 3D pointing selection",
+      "authors": [
+        "F. Argelaguet",
+        "C. Andujar",
+        "R. Trueba"
+      ],
+      "year": 2008,
+      "venue": "ACM VRST",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [8]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 8,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "8",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-27",
+      "title": "Gaze- vs. hand-based pointing in virtual environments",
+      "authors": [
+        "Nathan Cournia",
+        "John D. Smith",
+        "Andrew T. Duchowski"
+      ],
+      "year": 2003,
+      "venue": "CHI '03 extended abstracts on Human factors in computer systems  - CHI '03",
+      "doi": "10.1145/765978.765982",
+      "url": "https://doi.org/10.1145/765978.765982",
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [27]. Metadata: https://api.crossref.org/works/10.1145/765978.765982; exact title and year match. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 27,
+        "bibliographicLookup": "exact title and year match"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "conference",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "27",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-30",
+      "title": "IntenSelect: using dynamic object rating for assisting 3D object selection",
+      "authors": [
+        "G. de Haan",
+        "M. Koutek",
+        "F. H. Post"
+      ],
+      "year": 2005,
+      "venue": null,
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [30]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 30,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "30",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-48",
+      "title": "Adaptive pointing - design and evaluation of a precision enhancing technique for absolute pointing devices",
+      "authors": [
+        "W. König",
+        "J. Gerken",
+        "S. Dierdorf",
+        "H. Reiterer"
+      ],
+      "year": 2009,
+      "venue": "INTERACT",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [48]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 48,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "48",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-53",
+      "title": "Evaluation of pointing techniques for ray casting selection in virtual environments",
+      "authors": [
+        "S. Lee",
+        "J. Seo",
+        "G. J. Kim",
+        "C.-M. Park"
+      ],
+      "year": 2003,
+      "venue": "Third International Conference on Virtual Reality and Its Application in Industry",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [53]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 53,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "53",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-68",
+      "title": "SenseShapes: using statistical geometry for object selection in a multimodal augmented reality system",
+      "authors": [
+        "A. Olwal",
+        "H. Benko",
+        "S. Feiner"
+      ],
+      "year": 2003,
+      "venue": "IEEE/ACM ISMAR",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [68]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 68,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "68",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-71",
+      "title": "ISith - intersection-based spatial interaction for two hands",
+      "authors": [],
+      "year": 2006,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [71]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 71,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "71",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-73",
+      "title": "Image plane interaction techniques in 3D immersive environments",
+      "authors": [
+        "J. S. Pierce",
+        "A. Forsberg",
+        "M. J. Conway",
+        "S. Hong",
+        "R. C. Zeleznik",
+        "M. R. Mine"
+      ],
+      "year": 1997,
+      "venue": "ACM I3D",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [73]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 73,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "73",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-80",
+      "title": "Toward disambiguating multiple selections for frustum-based pointing",
+      "authors": [
+        "G. Schmidt",
+        "Y. Baillot",
+        "D. G. Brown",
+        "E. B. Tomlin",
+        "J. E. Swan II"
+      ],
+      "year": 2006,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [80]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 80,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "80",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-83",
+      "title": "Towards a general model for selection in virtual environments",
+      "authors": [
+        "A. Steed"
+      ],
+      "year": 2006,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [83]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 83,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "83",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-84",
+      "title": "3D selection strategies for head tracked and non-head tracked operation of spatially immersive displays",
+      "authors": [
+        "A. Steed",
+        "C. Parker"
+      ],
+      "year": 2004,
+      "venue": "Immersive Projection Technology Workshop",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [84]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 84,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "84",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-85",
+      "title": "Object selection in virtual environments with an improved virtual pointer metaphor",
+      "authors": [
+        "F. Steinicke",
+        "T. Ropinski",
+        "K. Hinrichs"
+      ],
+      "year": 2004,
+      "venue": "ICCVG",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [85]. Metadata: survey bibliography; not matched. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 85,
+        "bibliographicLookup": "not matched"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "85",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-87",
+      "title": "Interacting with eye movements in virtual environments",
+      "authors": [
+        "V. Tanriverdi",
+        "R. J. K. Jacob"
+      ],
+      "year": 2000,
+      "venue": "ACM CHI",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [87]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 87,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "87",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    },
+    {
+      "id": "survey2013-ref-98",
+      "title": "Selection using a one-eyed cursor in a fish tank VR environment",
+      "authors": [
+        "C. Ware",
+        "K. Lowther"
+      ],
+      "year": 1997,
+      "venue": "ACM Transactions on Computer-Human Interaction",
+      "doi": null,
+      "url": null,
+      "abstract": null,
+      "bibtex": null,
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        ],
+        "notes": "Machine extraction; not scientific verification."
+      },
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Reference [98]. Metadata: survey bibliography; HTTPError. Source paper full text not reviewed."
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "surveyReference": 98,
+        "bibliographicLookup": "HTTPError"
+      },
+      "methodology": null,
+      "keywords": [],
+      "publicationType": "unknown",
+      "publicationVenueType": "unknown",
+      "bibtexKey": null,
+      "originalBibtex": null,
+      "bibliographic": {
+        "entryType": null,
+        "journal": null,
+        "booktitle": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "publisher": null
+      },
+      "importProvenance": [
+        {
+          "source": "survey-bibliography",
+          "filename": null,
+          "originalKey": "98",
+          "timestamp": "2026-08-31T00:00:00Z",
+          "url": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf"
+        }
+      ]
+    }
+  ],
+  "techniquePublications": [
+    {
+      "techniqueId": "virtual-hand",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Virtual-hand. Selection tool/control: Hand avatar. Reference [64]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Virtual-hand. Hand avatar; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "bubble-cursor",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Bubble-cursor. Selection tool/control: Adaptive sphere. Reference [93]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Bubble-cursor. Adaptive sphere; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "silk-cursor",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Silk cursor. Selection tool/control: Transparent box. Reference [107]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Silk cursor. Transparent box; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "virtual-pads",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Virtual pads. Selection tool/control: Decoupled pointing plane. Reference [2]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Virtual pads. Decoupled pointing plane; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "virtual-pads",
+      "publicationId": "survey2013-ref-2",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Virtual pads. Selection tool/control: Decoupled pointing plane. Reference [2]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "direct-image-plane",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Direct image plane. Selection tool/control: Screen-normal ray. Reference [53]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Direct image plane. Screen-normal ray; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "direct-image-plane",
+      "publicationId": "survey2013-ref-53",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Direct image plane. Selection tool/control: Screen-normal ray. Reference [53]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "raycasting-from-eye",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Raycasting from the eye. Selection tool/control: Eye-origin wrist-oriented ray. Reference [8]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Raycasting from the eye. Eye-origin wrist-oriented ray; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "raycasting-from-eye",
+      "publicationId": "survey2013-ref-8",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Raycasting from the eye. Selection tool/control: Eye-origin wrist-oriented ray. Reference [8]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "view-finder",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: View finder. Selection tool/control: Eye-origin ray feedback. Reference [7]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: View finder. Eye-origin ray feedback; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "view-finder",
+      "publicationId": "survey2013-ref-7",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: View finder. Selection tool/control: Eye-origin ray feedback. Reference [7]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "eye-gaze-selection",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Eye-gazed selection. Selection tool/control: Gaze-directed ray. Reference [87]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Eye-gazed selection. Gaze-directed ray; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "eye-gaze-selection",
+      "publicationId": "survey2013-ref-87",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Eye-gazed selection. Selection tool/control: Gaze-directed ray. Reference [87]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "occlusion-selection",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Occlusion selection. Selection tool/control: Eye-to-hand ray. Reference [73]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Occlusion selection. Eye-to-hand ray; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "occlusion-selection",
+      "publicationId": "survey2013-ref-73",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Occlusion selection. Selection tool/control: Eye-to-hand ray. Reference [73]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "one-eyed-cursor",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: One-eyed cursor. Selection tool/control: Monocular cursor. Reference [98]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: One-eyed cursor. Monocular cursor; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "one-eyed-cursor",
+      "publicationId": "survey2013-ref-98",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: One-eyed cursor. Selection tool/control: Monocular cursor. Reference [98]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "two-handed-pointing",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Two-handed pointing. Selection tool/control: Two-hand positional ray. Reference [64]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Two-handed pointing. Two-hand positional ray; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "two-handed-pointing",
+      "publicationId": "legacy-paper-virtual-hand",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Two-handed pointing. Selection tool/control: Two-hand positional ray. Reference [64]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "intenselect",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: IntenSelect. Selection tool/control: Behavior-rated ray. Reference [30]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: IntenSelect. Behavior-rated ray; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "intenselect",
+      "publicationId": "survey2013-ref-30",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: IntenSelect. Selection tool/control: Behavior-rated ray. Reference [30]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "smart-ray",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Smart ray. Selection tool/control: Multiple pointing directions. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Smart ray. Multiple pointing directions; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "smart-ray",
+      "publicationId": "legacy-paper-depth-ray",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Smart ray. Selection tool/control: Multiple pointing directions. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "sticky-ray",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Sticky ray. Selection tool/control: Heuristic cone. Reference [85]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Sticky ray. Heuristic cone; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "sticky-ray",
+      "publicationId": "survey2013-ref-85",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Sticky ray. Selection tool/control: Heuristic cone. Reference [85]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "sense-shapes",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Sense shapes. Selection tool/control: Behavior-rated selection volume. Reference [68]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Sense shapes. Behavior-rated selection volume; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "sense-shapes",
+      "publicationId": "survey2013-ref-68",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Sense shapes. Selection tool/control: Behavior-rated selection volume. Reference [68]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "shadow-cone-selection",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Shadow cone selection. Selection tool/control: Manually disambiguated cone. Reference [84]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Shadow cone selection. Manually disambiguated cone; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "shadow-cone-selection",
+      "publicationId": "survey2013-ref-84",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Shadow cone selection. Selection tool/control: Manually disambiguated cone. Reference [84]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "probabilistic-pointing",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Probabilistic pointing. Selection tool/control: Probability-ranked frustum. Reference [80]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Probabilistic pointing. Probability-ranked frustum; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "probabilistic-pointing",
+      "publicationId": "survey2013-ref-80",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Probabilistic pointing. Selection tool/control: Probability-ranked frustum. Reference [80]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "enhanced-cone-selection",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Enhanced cone selection. Selection tool/control: Behavior-rated cone. Reference [83]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Enhanced cone selection. Behavior-rated cone; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "enhanced-cone-selection",
+      "publicationId": "survey2013-ref-83",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Enhanced cone selection. Selection tool/control: Behavior-rated cone. Reference [83]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "isith",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: iSith. Selection tool/control: Two-ray intersection. Reference [71]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: iSith. Two-ray intersection; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "isith",
+      "publicationId": "survey2013-ref-71",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: iSith. Selection tool/control: Two-ray intersection. Reference [71]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "flexible-pointer",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Flexible pointing. Selection tool/control: Bimanual curved ray. Reference [69]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Flexible pointing. Bimanual curved ray; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "depth-ray",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Depth ray. Selection tool/control: Depth-positioned ray cursor. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Depth ray. Depth-positioned ray cursor; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "lock-ray",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Lock ray. Selection tool/control: Constrained ray cursor. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Lock ray. Constrained ray cursor; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "lock-ray",
+      "publicationId": "legacy-paper-depth-ray",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Lock ray. Selection tool/control: Constrained ray cursor. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "flow-ray",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Flow ray. Selection tool/control: Ray with secondary menu. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Flow ray. Ray with secondary menu; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "flow-ray",
+      "publicationId": "legacy-paper-depth-ray",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Flow ray. Selection tool/control: Ray with secondary menu. Reference [41]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "friction-surfaces",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Friction surfaces. Selection tool/control: Target-dependent pointing gain. Reference [1]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Friction surfaces. Target-dependent pointing gain; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "friction-surfaces",
+      "publicationId": "survey2013-ref-1",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Friction surfaces. Selection tool/control: Target-dependent pointing gain. Reference [1]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "prism",
+      "publicationId": "frees-2007-prism",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: PRISM. Selection tool/control: Velocity-dependent pointing gain. Reference [38]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "adaptive-pointing",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Adaptative pointing. Selection tool/control: Velocity/offset-dependent pointing gain. Reference [48]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: Adaptative pointing. Velocity/offset-dependent pointing gain; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "adaptive-pointing",
+      "publicationId": "survey2013-ref-48",
+      "relationship": "unclassified",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Adaptative pointing. Selection tool/control: Velocity/offset-dependent pointing gain. Reference [48]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Referenced source identified by the survey; role and originality require human review."
+    },
+    {
+      "techniqueId": "worlds-in-miniature",
+      "publicationId": "seed-argelaguet-2013",
+      "relationship": "surveyed",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "131",
+          "section": "4.3 Occlusion management",
+          "quote": null,
+          "notes": "Survey label: World-in-Miniature. Selection tool/control: Miniature scene view. Reference [86]; source attribution is not confirmed introduction."
+        }
+      ],
+      "notes": "Survey label: World-in-Miniature. Miniature scene view; machine-curated coverage, not introduction."
+    },
+    {
+      "techniqueId": "eye-gaze-selection",
+      "publicationId": "survey2013-ref-27",
+      "relationship": "unclassified",
+      "notes": "Additional source referenced in Table 1; not confirmed original publication.",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Table 1 cites reference [27] for this technique as well as another reference."
+        }
+      ]
+    },
+    {
+      "techniqueId": "depth-ray",
+      "publicationId": "legacy-paper-bubble-cursor",
+      "relationship": "unclassified",
+      "notes": "Additional source referenced in Table 1; not confirmed original publication.",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Table 1 cites reference [93] for this technique as well as another reference."
+        }
+      ]
+    }
+  ],
+  "publicationCitations": [
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-1",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [1]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-2",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [2]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-7",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [7]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-8",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [8]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-27",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [27]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-30",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [30]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-aperture-selection",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [36]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "frees-2007-prism",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [38]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-depth-ray",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [41]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-48",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [48]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-squad",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [49]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-53",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [53]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-cone-casting",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [54]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-raycasting",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [63]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-virtual-hand",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [64]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-68",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [68]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-flexible-pointer",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [69]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-71",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [71]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-73",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [73]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-go-go",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [75]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-80",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [80]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-83",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [83]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-84",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [84]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-85",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [85]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "stoakley-1995-wim",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [86]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-87",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [87]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-bubble-cursor",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [93]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "survey2013-ref-98",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [98]. A reference is not proof of historical influence."
+        }
+      ]
+    },
+    {
+      "citingPublicationId": "seed-argelaguet-2013",
+      "citedPublicationId": "legacy-paper-silk-cursor",
+      "discoveryMethod": "backward-citation",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [107]. A reference is not proof of historical influence."
+        }
+      ]
+    }
+  ],
+  "reviewQueue": [
+    {
+      "id": "survey2013-review-virtual-pads",
+      "entityType": "technique",
+      "entityId": "virtual-pads",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-direct-image-plane",
+      "entityType": "technique",
+      "entityId": "direct-image-plane",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-raycasting-from-eye",
+      "entityType": "technique",
+      "entityId": "raycasting-from-eye",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-view-finder",
+      "entityType": "technique",
+      "entityId": "view-finder",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-eye-gaze-selection",
+      "entityType": "technique",
+      "entityId": "eye-gaze-selection",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-occlusion-selection",
+      "entityType": "technique",
+      "entityId": "occlusion-selection",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-one-eyed-cursor",
+      "entityType": "technique",
+      "entityId": "one-eyed-cursor",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-two-handed-pointing",
+      "entityType": "technique",
+      "entityId": "two-handed-pointing",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-intenselect",
+      "entityType": "technique",
+      "entityId": "intenselect",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-smart-ray",
+      "entityType": "technique",
+      "entityId": "smart-ray",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-sticky-ray",
+      "entityType": "technique",
+      "entityId": "sticky-ray",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-alias-review-cone-casting",
+      "entityType": "technique",
+      "entityId": "cone-casting",
+      "reasons": [
+        "Review alias mapping: survey label Flashlight to Cone Casting; existing canonical record preserved."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-sense-shapes",
+      "entityType": "technique",
+      "entityId": "sense-shapes",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-shadow-cone-selection",
+      "entityType": "technique",
+      "entityId": "shadow-cone-selection",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-probabilistic-pointing",
+      "entityType": "technique",
+      "entityId": "probabilistic-pointing",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-enhanced-cone-selection",
+      "entityType": "technique",
+      "entityId": "enhanced-cone-selection",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-alias-review-aperture-selection",
+      "entityType": "technique",
+      "entityId": "aperture-selection",
+      "reasons": [
+        "Review alias mapping: survey label Aperture to Aperture Selection; existing canonical record preserved."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-isith",
+      "entityType": "technique",
+      "entityId": "isith",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-alias-review-flexible-pointer",
+      "entityType": "technique",
+      "entityId": "flexible-pointer",
+      "reasons": [
+        "Review alias mapping: survey label Flexible pointing to Flexible Pointer; existing canonical record preserved."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-lock-ray",
+      "entityType": "technique",
+      "entityId": "lock-ray",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-flow-ray",
+      "entityType": "technique",
+      "entityId": "flow-ray",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-friction-surfaces",
+      "entityType": "technique",
+      "entityId": "friction-surfaces",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-review-adaptive-pointing",
+      "entityType": "technique",
+      "entityId": "adaptive-pointing",
+      "reasons": [
+        "Review survey extraction and source paper; taxonomy and earliest identified year are provisional. Unknown hardware, distance and evaluation details remain missing."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-bibliography-2",
+      "entityType": "publication",
+      "entityId": "survey2013-ref-2",
+      "reasons": [
+        "Virtual Pads: Table 1 cites [1], while section 3.3 cites [2]. Both publications are retained; source link follows the explicit prose and remains unclassified."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-bibliography-8",
+      "entityType": "publication",
+      "entityId": "survey2013-ref-8",
+      "reasons": [
+        "Raycasting from the eye: Table 1 cites [8], while section 3.2 discusses [6]. Source role/originality remains unresolved."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-bibliography-71",
+      "entityType": "publication",
+      "entityId": "survey2013-ref-71",
+      "reasons": [
+        "iSith: bibliography lists Peter H, Roland W, Bues BM. Author names are ambiguous; retained in this review note, structured authors left empty pending publisher verification."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-bibliography-63",
+      "entityType": "publication",
+      "entityId": "legacy-paper-raycasting",
+      "reasons": [
+        "Mine technical report: bibliography combines TR94-018 with 1995; report number/year discrepancy requires review."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-bibliography-38",
+      "entityType": "publication",
+      "entityId": "frees-2007-prism",
+      "reasons": [
+        "PRISM: Table 1 cites the 2007 paper [38], while prose references 2005 [37]. These are separate publications; neither survey attribution establishes originality."
+      ],
+      "status": "open"
+    },
+    {
+      "id": "survey2013-bibliography-85",
+      "entityType": "publication",
+      "entityId": "survey2013-ref-85",
+      "reasons": [
+        "Sticky ray source: survey bibliography says ICCVG 2004; Crossref title query did not establish an exact title/year match. Publication date/venue needs review."
+      ],
+      "status": "open"
+    }
+  ],
+  "claims": [
+    {
+      "id": "survey2013-alias-cone-casting",
+      "entityType": "technique",
+      "entityId": "cone-casting",
+      "field": "alias",
+      "value": "Flashlight",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Flashlight. Selection tool/control: Cone-axis proximity. Reference [54]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey label matched by mechanism and referenced paper; review before changing canonical aliases.",
+      "status": "open"
+    },
+    {
+      "id": "survey2013-alias-aperture-selection",
+      "entityType": "technique",
+      "entityId": "aperture-selection",
+      "field": "alias",
+      "value": "Aperture",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Aperture. Selection tool/control: Adjustable eye-origin cone. Reference [36]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey label matched by mechanism and referenced paper; review before changing canonical aliases.",
+      "status": "open"
+    },
+    {
+      "id": "survey2013-alias-flexible-pointer",
+      "entityType": "technique",
+      "entityId": "flexible-pointer",
+      "field": "alias",
+      "value": "Flexible pointing",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "123",
+          "section": "Table 1",
+          "quote": null,
+          "notes": "Survey label: Flexible pointing. Selection tool/control: Bimanual curved ray. Reference [69]; source attribution is not confirmed introduction."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey label matched by mechanism and referenced paper; review before changing canonical aliases.",
+      "status": "open"
+    }
+  ],
+  "publicationRelationships": [
+    {
+      "id": "survey2013-cites-1",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-1",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [1]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [1] matched to survey2013-ref-1."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-2",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-2",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [2]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [2] matched to survey2013-ref-2."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-7",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-7",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [7]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [7] matched to survey2013-ref-7."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-8",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-8",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [8]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [8] matched to survey2013-ref-8."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-27",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-27",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [27]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [27] matched to survey2013-ref-27."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-30",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-30",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [30]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [30] matched to survey2013-ref-30."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-36",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-aperture-selection",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [36]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [36] matched to legacy-paper-aperture-selection."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-38",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "frees-2007-prism",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [38]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [38] matched to frees-2007-prism."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-41",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-depth-ray",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [41]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [41] matched to legacy-paper-depth-ray."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-48",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-48",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [48]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [48] matched to survey2013-ref-48."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-49",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-squad",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [49]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [49] matched to legacy-paper-squad."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-53",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-53",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [53]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [53] matched to survey2013-ref-53."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-54",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-cone-casting",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [54]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [54] matched to legacy-paper-cone-casting."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-63",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-raycasting",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [63]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [63] matched to legacy-paper-raycasting."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-64",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-virtual-hand",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [64]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [64] matched to legacy-paper-virtual-hand."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-68",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-68",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [68]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [68] matched to survey2013-ref-68."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-69",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-flexible-pointer",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [69]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [69] matched to legacy-paper-flexible-pointer."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-71",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-71",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [71]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [71] matched to survey2013-ref-71."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-73",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-73",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [73]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [73] matched to survey2013-ref-73."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-75",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-go-go",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [75]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [75] matched to legacy-paper-go-go."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-80",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-80",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [80]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [80] matched to survey2013-ref-80."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-83",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-83",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [83]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [83] matched to survey2013-ref-83."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-84",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-84",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [84]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [84] matched to survey2013-ref-84."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-85",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-85",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [85]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [85] matched to survey2013-ref-85."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-86",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "stoakley-1995-wim",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [86]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [86] matched to stoakley-1995-wim."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-87",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-87",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [87]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [87] matched to survey2013-ref-87."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-93",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-bubble-cursor",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [93]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [93] matched to legacy-paper-bubble-cursor."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-98",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "survey2013-ref-98",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [98]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [98] matched to survey2013-ref-98."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    },
+    {
+      "id": "survey2013-cites-107",
+      "sourcePublicationId": "seed-argelaguet-2013",
+      "targetPublicationId": "legacy-paper-silk-cursor",
+      "type": "cites",
+      "status": "active",
+      "evidence": [
+        {
+          "publicationId": "seed-argelaguet-2013",
+          "page": "134–136",
+          "section": "References",
+          "quote": null,
+          "notes": "Bibliography reference [107]. A reference is not proof of historical influence."
+        }
+      ],
+      "provenance": [
+        {
+          "source": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-argelaguet-2013",
+          "retrievedAt": "2026-08-31",
+          "notes": "Bibliography [107] matched to legacy-paper-silk-cursor."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [],
+        "notes": null
+      },
+      "notes": "Survey bibliography citation; not lineage."
+    }
+  ],
+  "publicationSimilarities": [],
+  "curationDecisions": [],
+  "candidateLiterature": []
+}

@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 3,
+  "techniques": [
+    {
+      "id": "worlds-in-miniature",
+      "name": "Worlds in Miniature",
+      "aliases": [
+        "WIM",
+        "World-in-Miniature"
+      ],
+      "description": "A hand-held miniature of a virtual environment provides linked proxies for selecting and manipulating objects and changing viewpoint.",
+      "introducedYear": null,
+      "primaryTask": "manipulation",
+      "tasks": [
+        "manipulation",
+        "selection",
+        "navigation"
+      ],
+      "interactionModalities": [
+        "hand",
+        "tangible"
+      ],
+      "modalityDetails": null,
+      "inputDevices": [
+        "Tracked clipboard",
+        "Tracked buttonball"
+      ],
+      "deviceDetails": null,
+      "interactionDistance": null,
+      "degreesOfFreedom": null,
+      "taxonomy": {
+        "general": {
+          "interactionDistance": null,
+          "interactionModalities": [
+            "hand",
+            "tangible"
+          ],
+          "inputDevices": [
+            "Tracked clipboard",
+            "Tracked buttonball"
+          ],
+          "environment": [
+            "VR"
+          ],
+          "controlMapping": [
+            "scaled"
+          ],
+          "bodyParts": null,
+          "directness": null,
+          "feedbackModalities": null
+        },
+        "selection": {
+          "selectionMechanism": null,
+          "targetCardinality": null,
+          "targetProperties": null,
+          "confirmationMethod": [
+            "button"
+          ]
+        },
+        "manipulation": null,
+        "navigation": null,
+        "systemControl": null
+      },
+      "tags": [],
+      "advantages": [],
+      "limitations": [],
+      "howItWorks": null,
+      "relationships": [],
+      "evidence": [
+        {
+          "publicationId": "stoakley-1995-wim",
+          "section": "Abstract; System Description; Interaction Techniques Using the WIM",
+          "page": "1–3 (PDF)",
+          "quote": null,
+          "notes": "Names WIM; describes linked miniature proxies, manipulation, selection and navigation, with tracked physical props and button confirmation."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf"
+        ],
+        "notes": "Evidence supports named technique, tasks and listed taxonomy. Introduction year is earliest identified publication, not a completed historical priority audit. Remaining fields unknown; human review required."
+      },
+      "provenance": [
+        {
+          "source": "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "stoakley-1995-wim",
+          "retrievedAt": "2026-08-30",
+          "notes": "Automated extraction from identified evidence; requires human scientific verification."
+        },
+        {
+          "source": "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf",
+          "discoveryMethod": "migration",
+          "discoveredFromPublicationId": null,
+          "retrievedAt": "2026-08-30",
+          "notes": "Prior attribution on an unverified record; not human verification. {\"verifiedBy\":\"Codex: literature extraction\",\"verifiedDate\":\"2026-08-30\",\"sources\":[\"https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf\"],\"notes\":\"Evidence supports named technique, tasks and listed taxonomy. Introduction year is earliest identified publication, not a completed historical priority audit. Remaining fields unknown; human review required.\"}"
+        }
+      ],
+      "implementations": [],
+      "legacyMetadata": {
+        "v2Introduction": {
+          "year": 1995,
+          "verification": {
+            "verifiedBy": "Codex: literature extraction",
+            "verifiedDate": "2026-08-30",
+            "sources": [
+              "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf"
+            ],
+            "notes": "Evidence supports named technique, tasks and listed taxonomy. Introduction year is earliest identified publication, not a completed historical priority audit. Remaining fields unknown; human review required."
+          },
+          "notes": "Reclassified as earliest identified; original v2 record preserved in snapshot."
+        }
+      },
+      "earliestIdentifiedYear": 1995,
+      "introductionStatus": "earliest-identified"
+    }
+  ],
+  "publications": [
+    {
+      "id": "seed-weise-2019",
+      "title": "A Comprehensive Classification of 3D Selection and Manipulation Techniques",
+      "authors": [
+        "Matthias Weise",
+        "Raphael Zender",
+        "Ulrike Lucke"
+      ],
+      "year": 2019,
+      "venue": "Proceedings of Mensch und Computer 2019",
+      "doi": "10.1145/3340764.3340777",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3340764.3340777",
+      "abstract": null,
+      "bibtex": "@inproceedings{seed-weise-2019,\n  title = {A Comprehensive Classification of 3D Selection and Manipulation Techniques},\n  author = {Matthias Weise and Raphael Zender and Ulrike Lucke},\n  year = {2019},\n  booktitle = {Proceedings of Mensch und Computer 2019},\n  doi = {10.1145/3340764.3340777},\n  url = {https://dl.acm.org/doi/abs/10.1145/3340764.3340777}\n}",
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://api.crossref.org/works/10.1145/3340764.3340777"
+        ],
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Full text unavailable in this pass; no content-level technique extraction from this paper."
+      },
+      "provenance": [
+        {
+          "source": "https://api.crossref.org/works/10.1145/3340764.3340777",
+          "discoveryMethod": "seed",
+          "discoveredFromPublicationId": null,
+          "retrievedAt": "2026-08-30",
+          "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Full text unavailable in this pass; no content-level technique extraction from this paper."
+        },
+        {
+          "source": "https://api.crossref.org/works/10.1145/3340764.3340777",
+          "discoveryMethod": "migration",
+          "discoveredFromPublicationId": null,
+          "retrievedAt": "2026-08-30",
+          "notes": "Prior attribution on an unverified record; not human verification. {\"verifiedBy\":\"Codex: Crossref metadata check\",\"verifiedDate\":\"2026-08-30\",\"sources\":[\"https://api.crossref.org/works/10.1145/3340764.3340777\"],\"notes\":\"Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Full text unavailable in this pass; no content-level technique extraction from this paper.\"}"
+        }
+      ],
+      "access": "metadata-only",
+      "legacyMetadata": {
+        "crossrefDates": {
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                8
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                8
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                8
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                8
+              ]
+            ]
+          }
+        }
+      },
+      "methodology": null,
+      "keywords": []
+    },
+    {
+      "id": "stoakley-1995-wim",
+      "title": "Virtual reality on a WIM: interactive worlds in miniature",
+      "authors": [
+        "Richard Stoakley",
+        "Matthew J. Conway",
+        "Randy Pausch"
+      ],
+      "year": 1995,
+      "venue": "Proceedings of the SIGCHI conference on Human factors in computing systems - CHI '95",
+      "doi": "10.1145/223904.223938",
+      "url": "https://doi.org/10.1145/223904.223938",
+      "abstract": null,
+      "bibtex": "@inproceedings{stoakley-1995-wim,\n  title = {Virtual reality on a WIM: interactive worlds in miniature},\n  author = {Richard Stoakley and Matthew J. Conway and Randy Pausch},\n  year = {1995},\n  booktitle = {Proceedings of the SIGCHI conference on Human factors in computing systems - CHI '95},\n  doi = {10.1145/223904.223938},\n  url = {https://doi.org/10.1145/223904.223938}\n}",
+      "legacyCitations": [],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://api.crossref.org/works/10.1145/223904.223938"
+        ],
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      },
+      "provenance": [
+        {
+          "source": "https://api.crossref.org/works/10.1145/223904.223938",
+          "discoveryMethod": "backward-citation",
+          "discoveredFromPublicationId": "seed-weise-2019",
+          "retrievedAt": "2026-08-30",
+          "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+        },
+        {
+          "source": "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf",
+          "discoveryMethod": "manual",
+          "discoveredFromPublicationId": null,
+          "retrievedAt": "2026-08-30",
+          "notes": "Accessible paper copy inspected for substantive evidence; no full text redistributed."
+        },
+        {
+          "source": "https://api.crossref.org/works/10.1145/223904.223938",
+          "discoveryMethod": "migration",
+          "discoveredFromPublicationId": null,
+          "retrievedAt": "2026-08-30",
+          "notes": "Prior attribution on an unverified record; not human verification. {\"verifiedBy\":\"Codex: Crossref metadata check\",\"verifiedDate\":\"2026-08-30\",\"sources\":[\"https://api.crossref.org/works/10.1145/223904.223938\"],\"notes\":\"Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported.\"}"
+        }
+      ],
+      "access": "full-text",
+      "legacyMetadata": {
+        "crossrefDates": {
+          "issued": {
+            "date-parts": [
+              [
+                1995
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                1995
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1995
+              ]
+            ]
+          }
+        }
+      },
+      "methodology": null,
+      "keywords": []
+    }
+  ],
+  "techniquePublications": [
+    {
+      "techniqueId": "worlds-in-miniature",
+      "publicationId": "stoakley-1995-wim",
+      "relationship": "earliest-identified",
+      "evidence": [
+        {
+          "publicationId": "stoakley-1995-wim",
+          "section": "Abstract; System Description; Interaction Techniques Using the WIM",
+          "page": "1–3 (PDF)",
+          "quote": null,
+          "notes": "Names WIM; describes linked miniature proxies, manipulation, selection and navigation, with tracked physical props and button confirmation."
+        }
+      ],
+      "notes": "v3 migration: previous introduced role was qualified as earliest identified. Original role/evidence retained in catalogue-v2.json. "
+    }
+  ],
+  "publicationCitations": [],
+  "reviewQueue": [
+    {
+      "id": "review-claim-worlds-in-miniature-introduction",
+      "entityType": "claim",
+      "entityId": "claim-worlds-in-miniature-introduction",
+      "reasons": [
+        "Original introduction is not established; earliest identified year is stored separately."
+      ],
+      "status": "open"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-worlds-in-miniature-introduction",
+      "entityType": "technique",
+      "entityId": "worlds-in-miniature",
+      "field": "introducedYear",
+      "value": 1995,
+      "evidence": [
+        {
+          "publicationId": "stoakley-1995-wim",
+          "section": "Abstract; System Description; Interaction Techniques Using the WIM",
+          "page": "1–3 (PDF)",
+          "quote": null,
+          "notes": "Names WIM; describes linked miniature proxies, manipulation, selection and navigation, with tracked physical props and button confirmation."
+        }
+      ],
+      "verificationStatus": "machine-curated",
+      "verification": {
+        "verifiedBy": null,
+        "verifiedDate": null,
+        "sources": [
+          "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf"
+        ],
+        "notes": "Unconfirmed introduction claim carried from v2 for explicit human review."
+      },
+      "notes": "Earliest found does not establish originality. Confirm only after inspecting original evidence.",
+      "status": "needs-evidence",
+      "provenance": [
+        {
+          "source": "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf",
+          "discoveryMethod": "migration",
+          "discoveredFromPublicationId": null,
+          "retrievedAt": "2026-08-30",
+          "notes": "Prior attribution on an unverified record; not human verification. {\"verifiedBy\":\"Codex: literature extraction\",\"verifiedDate\":\"2026-08-30\",\"sources\":[\"https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf\"],\"notes\":\"Unconfirmed introduction claim carried from v2 for explicit human review.\"}"
+        }
+      ]
+    }
+  ],
+  "publicationRelationships": [],
+  "publicationSimilarities": [],
+  "curationDecisions": [],
+  "candidateLiterature": []
+}

@@ -1,0 +1,13 @@
+{
+  "policy": "Proposal-only bounded expansion; no automatic verified database writes",
+  "tracks": [
+    {"id":"selection","seedPublicationIds":["seed-argelaguet-2013","seed-weise-2019","seed-yu-2024"],"status":"initial corpus"},
+    {"id":"manipulation","seedPublicationIds":["frees-2005-prism","frees-2007-prism","stoakley-1995-wim"],"status":"prepare expansion"},
+    {"id":"navigation-locomotion","seedPublicationIds":[],"status":"seed selection requires researcher review"},
+    {"id":"system-control","seedPublicationIds":["seed-3dui-2024"],"status":"prepare expansion"},
+    {"id":"multimodal-interaction","seedPublicationIds":[],"status":"seed selection requires researcher review"},
+    {"id":"hand-interaction","seedPublicationIds":[],"status":"seed selection requires researcher review"},
+    {"id":"gaze-interaction","seedPublicationIds":[],"status":"seed selection requires researcher review"}
+  ],
+  "limits":{"maxDepth":2,"maxBackwardCandidates":12,"maxForwardCandidates":5}
+}

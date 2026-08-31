@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788075975110,
+      "tag": "0000_hesitant_spot",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788105674392,
+      "tag": "0001_dusty_sister_grimm",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788106826676,
+      "tag": "0002_third_vermin",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1788109246206,
+      "tag": "0003_fast_alex_power",
+      "breakpoints": true
+    }
+  ]
+}

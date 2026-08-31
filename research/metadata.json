@@ -1,0 +1,854 @@
+[
+  {
+    "id": "seed-argelaguet-2013",
+    "title": "A survey of 3D object selection techniques for virtual environments",
+    "authors": [
+      "Ferran Argelaguet",
+      "Carlos Andujar"
+    ],
+    "year": 2013,
+    "venue": "Computers & Graphics",
+    "doi": "10.1016/j.cag.2012.12.003",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0097849312001793",
+    "abstract": null,
+    "bibtex": "@article{seed-argelaguet-2013,\n  title = {A survey of 3D object selection techniques for virtual environments},\n  author = {Ferran Argelaguet and Carlos Andujar},\n  year = {2013},\n  journal = {Computers \\& Graphics},\n  doi = {10.1016/j.cag.2012.12.003},\n  url = {https://www.sciencedirect.com/science/article/pii/S0097849312001793}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/j.cag.2012.12.003"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Issue year is 2013; author manuscript reports online availability 2012-12-20. Dates represent different publication events."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1016/j.cag.2012.12.003",
+        "discoveryMethod": "seed",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Issue year is 2013; author manuscript reports online availability 2012-12-20. Dates represent different publication events."
+      },
+      {
+        "source": "https://www.cs.ucf.edu/courses/cap6121/spr2020/readings/Sanz2013.pdf",
+        "discoveryMethod": "manual",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Accessible paper copy inspected for substantive evidence; no full text redistributed."
+      }
+    ],
+    "access": "full-text",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              5
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              5
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "seed-weise-2019",
+    "title": "A Comprehensive Classification of 3D Selection and Manipulation Techniques",
+    "authors": [
+      "Matthias Weise",
+      "Raphael Zender",
+      "Ulrike Lucke"
+    ],
+    "year": 2019,
+    "venue": "Proceedings of Mensch und Computer 2019",
+    "doi": "10.1145/3340764.3340777",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3340764.3340777",
+    "abstract": null,
+    "bibtex": "@inproceedings{seed-weise-2019,\n  title = {A Comprehensive Classification of 3D Selection and Manipulation Techniques},\n  author = {Matthias Weise and Raphael Zender and Ulrike Lucke},\n  year = {2019},\n  booktitle = {Proceedings of Mensch und Computer 2019},\n  doi = {10.1145/3340764.3340777},\n  url = {https://dl.acm.org/doi/abs/10.1145/3340764.3340777}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/3340764.3340777"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Full text unavailable in this pass; no content-level technique extraction from this paper."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1145/3340764.3340777",
+        "discoveryMethod": "seed",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Full text unavailable in this pass; no content-level technique extraction from this paper."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              8
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              8
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "seed-3dui-2024",
+    "title": "Entering the Next Dimension: A Review of 3D User Interfaces for Virtual Reality",
+    "authors": [
+      "Adriel Yeo",
+      "Benjamin W. J. Kwok",
+      "Angelene Joshna",
+      "Kan Chen",
+      "Jeannie S. A. Lee"
+    ],
+    "year": 2024,
+    "venue": "Electronics",
+    "doi": "10.3390/electronics13030600",
+    "url": "https://www.mdpi.com/2079-9292/13/3/600",
+    "abstract": "In the last decade, the use of virtual reality (VR) technologies has been increasing, as head-mounted display devices, such as the Meta Quest series, have become commercially accessible to everyday consumers. There are plenty of software applications developed for VR, ranging from games to serious training. Despite the fast-growing emergence of novel and natural gesture-based interface components, traditional windows, icons, menus, and pointer user interfaces still remain popular in these implementations. Therefore, navigating and interacting within 3-dimensional environments can still be challenging in virtual reality. This body of work will serve as a reference to the literature survey on 3-dimensional user interfaces and their implementations, and categorize them to reiterate a set of design recommendations for implementing 3-dimensional user interfaces in virtual reality. While questions revolve around the need for a 3-dimensional user interface if a 2-dimensional user interface suffices, we cannot ignore the capabilities and benefits offered when utilising 3-dimensional space. Unlike other work, this work proposes a novel metaphor-guided quadrant model to delineate the 3-dimensional user interface problem in an end-to-end manner. To achieve this, over 30 unique articles selected using a meta-analyses methodology were reviewed. The result highlights the dimensional semantics of the inputs and dimensional outcomes of the virtual targets. Notable reiterated design recommendations would match devices to interaction and then to the tasks in 3-dimensional environments, reducing the degrees of freedom, imposing constraints when possible, and not implementing one single best interaction technique. The results of this survey will be beneficial for virtual reality simulation designers or researchers attempting to determine the appropriate model when developing user interfaces for virtual reality content.",
+    "bibtex": "@article{seed-3dui-2024,\n  title = {Entering the Next Dimension: A Review of 3D User Interfaces for Virtual Reality},\n  author = {Adriel Yeo and Benjamin W. J. Kwok and Angelene Joshna and Kan Chen and Jeannie S. A. Lee},\n  year = {2024},\n  journal = {Electronics},\n  doi = {10.3390/electronics13030600},\n  url = {https://www.mdpi.com/2079-9292/13/3/600}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.3390/electronics13030600"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.3390/electronics13030600",
+        "discoveryMethod": "seed",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      },
+      {
+        "source": "https://mdpi-res.com/d_attachment/electronics/electronics-13-00600/article_deploy/electronics-13-00600-v2.pdf?version=1706851874",
+        "discoveryMethod": "manual",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Accessible paper copy inspected for substantive evidence; no full text redistributed."
+      }
+    ],
+    "access": "full-text",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "seed-yu-2024",
+    "title": "Object Selection and Manipulation in VR Headsets: Research Challenges, Solutions, and Success Measurements",
+    "authors": [
+      "Difeng Yu",
+      "Tilman Dingler",
+      "Eduardo Velloso",
+      "Jorge Goncalves"
+    ],
+    "year": 2024,
+    "venue": "ACM Computing Surveys",
+    "doi": "10.1145/3706417",
+    "url": "https://dl.acm.org/doi/full/10.1145/3706417",
+    "abstract": "Object selection and manipulation are the foundation of VR interactions. With the rapid development of VR technology and the field of virtual object selection and manipulation, the literature demands a structured understanding of the core research challenges and a critical reflection of the current practices. To provide such understanding and reflections, we systematically reviewed 106 papers. We identified classic and emerging topics, categorized existing solutions, and evaluated how success was measured in these publications. Based on our analysis, we discuss future research directions and propose a framework for developing and determining appropriate solutions for different application scenarios.",
+    "bibtex": "@article{seed-yu-2024,\n  title = {Object Selection and Manipulation in VR Headsets: Research Challenges, Solutions, and Success Measurements},\n  author = {Difeng Yu and Tilman Dingler and Eduardo Velloso and Jorge Goncalves},\n  year = {2024},\n  journal = {ACM Computing Surveys},\n  doi = {10.1145/3706417},\n  url = {https://dl.acm.org/doi/full/10.1145/3706417}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/3706417"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Online publication: 2024-12-23; issue date: 2025-04-30. year uses online date; both dates retained."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1145/3706417",
+        "discoveryMethod": "seed",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Online publication: 2024-12-23; issue date: 2025-04-30. year uses online date; both dates retained."
+      },
+      {
+        "source": "https://pure.tudelft.nl/ws/portalfiles/portal/235391176/3706417.pdf",
+        "discoveryMethod": "manual",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Accessible paper copy inspected for substantive evidence; no full text redistributed."
+      }
+    ],
+    "access": "full-text",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              23
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              23
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              23
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              30
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "legacy-paper-go-go",
+    "title": "The go-go interaction technique: non-linear mapping for direct manipulation in VR",
+    "authors": [
+      "Ivan Poupyrev",
+      "Mark Billinghurst",
+      "Suzanne Weghorst",
+      "Tadao Ichikawa"
+    ],
+    "year": 1996,
+    "venue": "Proceedings of the 9th annual ACM symposium on User interface software and technology  - UIST '96",
+    "doi": "10.1145/237091.237102",
+    "url": "https://doi.org/10.1145/237091.237102",
+    "abstract": null,
+    "bibtex": "@inproceedings{legacy-paper-go-go,\n  title = {The go-go interaction technique: non-linear mapping for direct manipulation in VR},\n  author = {Ivan Poupyrev and Mark Billinghurst and Suzanne Weghorst and Tadao Ichikawa},\n  year = {1996},\n  booktitle = {Proceedings of the 9th annual ACM symposium on User interface software and technology  - UIST '96},\n  doi = {10.1145/237091.237102},\n  url = {https://doi.org/10.1145/237091.237102}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/237091.237102"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1145/237091.237102",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-weise-2019",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "legacy-paper-homer",
+    "title": "An evaluation of techniques for grabbing and manipulating remote objects in immersive virtual environments",
+    "authors": [
+      "Doug A. Bowman",
+      "Larry F. Hodges"
+    ],
+    "year": 1997,
+    "venue": "Proceedings of the 1997 symposium on Interactive 3D graphics  - SI3D '97",
+    "doi": "10.1145/253284.253301",
+    "url": "https://doi.org/10.1145/253284.253301",
+    "abstract": null,
+    "bibtex": "@inproceedings{legacy-paper-homer,\n  title = {An evaluation of techniques for grabbing and manipulating remote objects in immersive virtual environments},\n  author = {Doug A. Bowman and Larry F. Hodges},\n  year = {1997},\n  booktitle = {Proceedings of the 1997 symposium on Interactive 3D graphics  - SI3D '97},\n  doi = {10.1145/253284.253301},\n  url = {https://doi.org/10.1145/253284.253301}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/253284.253301"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1145/253284.253301",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-3dui-2024",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "frees-2005-prism",
+    "title": "Precise and rapid interaction through scaled manipulation in immersive virtual environments",
+    "authors": [
+      "S. Frees",
+      "G.D. Kessler"
+    ],
+    "year": 2005,
+    "venue": "IEEE Proceedings. VR 2005. Virtual Reality, 2005.",
+    "doi": "10.1109/vr.2005.1492759",
+    "url": "https://doi.org/10.1109/vr.2005.1492759",
+    "abstract": null,
+    "bibtex": "@inproceedings{frees-2005-prism,\n  title = {Precise and rapid interaction through scaled manipulation in immersive virtual environments},\n  author = {S. Frees and G.D. Kessler},\n  year = {2005},\n  booktitle = {IEEE Proceedings. VR 2005. Virtual Reality, 2005.},\n  doi = {10.1109/vr.2005.1492759},\n  url = {https://doi.org/10.1109/vr.2005.1492759}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1109/vr.2005.1492759"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Crossref issued year is null; 2005 is explicitly recorded in Argelaguet & Andujar reference [37] and IEEE Virtual Reality 2005 proceedings metadata. Introduction is earliest identified, pending human review."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1109/vr.2005.1492759",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-yu-2024",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported. Crossref issued year is null; 2005 is explicitly recorded in Argelaguet & Andujar reference [37] and IEEE Virtual Reality 2005 proceedings metadata. Introduction is earliest identified, pending human review."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "frees-2007-prism",
+    "title": "PRISM interaction for enhancing control in immersive virtual environments",
+    "authors": [
+      "Scott Frees",
+      "G. Drew Kessler",
+      "Edwin Kay"
+    ],
+    "year": 2007,
+    "venue": "ACM Transactions on Computer-Human Interaction",
+    "doi": "10.1145/1229855.1229857",
+    "url": "https://doi.org/10.1145/1229855.1229857",
+    "abstract": null,
+    "bibtex": "@article{frees-2007-prism,\n  title = {PRISM interaction for enhancing control in immersive virtual environments},\n  author = {Scott Frees and G. Drew Kessler and Edwin Kay},\n  year = {2007},\n  journal = {ACM Transactions on Computer-Human Interaction},\n  doi = {10.1145/1229855.1229857},\n  url = {https://doi.org/10.1145/1229855.1229857}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/1229855.1229857"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1145/1229855.1229857",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-weise-2019",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              2007,
+              5
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              5
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2007,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              5
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "stoakley-1995-wim",
+    "title": "Virtual reality on a WIM: interactive worlds in miniature",
+    "authors": [
+      "Richard Stoakley",
+      "Matthew J. Conway",
+      "Randy Pausch"
+    ],
+    "year": 1995,
+    "venue": "Proceedings of the SIGCHI conference on Human factors in computing systems - CHI '95",
+    "doi": "10.1145/223904.223938",
+    "url": "https://doi.org/10.1145/223904.223938",
+    "abstract": null,
+    "bibtex": "@inproceedings{stoakley-1995-wim,\n  title = {Virtual reality on a WIM: interactive worlds in miniature},\n  author = {Richard Stoakley and Matthew J. Conway and Randy Pausch},\n  year = {1995},\n  booktitle = {Proceedings of the SIGCHI conference on Human factors in computing systems - CHI '95},\n  doi = {10.1145/223904.223938},\n  url = {https://doi.org/10.1145/223904.223938}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/223904.223938"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1145/223904.223938",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-weise-2019",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      },
+      {
+        "source": "https://static.aminer.org/pdf/PDF/000/090/398/virtual_reality_on_a_wim_interactive_worlds_in_miniature.pdf",
+        "discoveryMethod": "manual",
+        "discoveredFromPublicationId": null,
+        "retrievedAt": "2026-08-30",
+        "notes": "Accessible paper copy inspected for substantive evidence; no full text redistributed."
+      }
+    ],
+    "access": "full-text",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              1995
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1995
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1995
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "legacy-paper-aperture-selection",
+    "title": "Aperture based selection for immersive virtual environments",
+    "authors": [
+      "Andrew Forsberg",
+      "Kenneth Herndon",
+      "Robert Zeleznik"
+    ],
+    "year": 1996,
+    "venue": "Proceedings of the 9th annual ACM symposium on User interface software and technology  - UIST '96",
+    "doi": "10.1145/237091.237105",
+    "url": "https://doi.org/10.1145/237091.237105",
+    "abstract": null,
+    "bibtex": "@inproceedings{legacy-paper-aperture-selection,\n  title = {Aperture based selection for immersive virtual environments},\n  author = {Andrew Forsberg and Kenneth Herndon and Robert Zeleznik},\n  year = {1996},\n  booktitle = {Proceedings of the 9th annual ACM symposium on User interface software and technology  - UIST '96},\n  doi = {10.1145/237091.237105},\n  url = {https://doi.org/10.1145/237091.237105}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1145/237091.237105"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1145/237091.237105",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-yu-2024",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "legacy-paper-cone-casting",
+    "title": "JDCAD: A highly interactive 3D modeling system",
+    "authors": [
+      "Jiandong Liang",
+      "Mark Green"
+    ],
+    "year": 1994,
+    "venue": "Computers & Graphics",
+    "doi": "10.1016/0097-8493(94)90062-0",
+    "url": "https://doi.org/10.1016/0097-8493(94)90062-0",
+    "abstract": null,
+    "bibtex": "@article{legacy-paper-cone-casting,\n  title = {JDCAD: A highly interactive 3D modeling system},\n  author = {Jiandong Liang and Mark Green},\n  year = {1994},\n  journal = {Computers \\& Graphics},\n  doi = {10.1016/0097-8493(94)90062-0},\n  url = {https://doi.org/10.1016/0097-8493(94)90062-0}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1016/0097-8493(94)90062-0"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1016/0097-8493(94)90062-0",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-weise-2019",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              1994,
+              7
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1994,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1994,
+              7
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "legacy-paper-bubble-raycasting",
+    "title": "Investigating Bubble Mechanism for Ray-Casting to Improve 3D Target Acquisition in Virtual Reality",
+    "authors": [
+      "Yiqin Lu",
+      "Chun Yu",
+      "Yuanchun Shi"
+    ],
+    "year": 2020,
+    "venue": "2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)",
+    "doi": "10.1109/vr46266.2020.00021",
+    "url": "https://doi.org/10.1109/vr46266.2020.00021",
+    "abstract": null,
+    "bibtex": "@inproceedings{legacy-paper-bubble-raycasting,\n  title = {Investigating Bubble Mechanism for Ray-Casting to Improve 3D Target Acquisition in Virtual Reality},\n  author = {Yiqin Lu and Chun Yu and Yuanchun Shi},\n  year = {2020},\n  booktitle = {2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)},\n  doi = {10.1109/vr46266.2020.00021},\n  url = {https://doi.org/10.1109/vr46266.2020.00021}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1109/vr46266.2020.00021"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1109/vr46266.2020.00021",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "seed-yu-2024",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "mapes-1995-twohanded",
+    "title": "A Two-Handed Interface for Object Manipulation in Virtual Environments",
+    "authors": [
+      "Daniel P. Mapes",
+      "J. Michael Moshell"
+    ],
+    "year": 1995,
+    "venue": "Presence: Teleoperators and Virtual Environments",
+    "doi": "10.1162/pres.1995.4.4.403",
+    "url": "https://doi.org/10.1162/pres.1995.4.4.403",
+    "abstract": null,
+    "bibtex": "@article{mapes-1995-twohanded,\n  title = {A Two-Handed Interface for Object Manipulation in Virtual Environments},\n  author = {Daniel P. Mapes and J. Michael Moshell},\n  year = {1995},\n  journal = {Presence: Teleoperators and Virtual Environments},\n  doi = {10.1162/pres.1995.4.4.403},\n  url = {https://doi.org/10.1162/pres.1995.4.4.403}\n}",
+    "legacyCitations": [],
+    "verificationStatus": "machine-verified",
+    "verification": {
+      "verifiedBy": "Codex: Crossref metadata check",
+      "verifiedDate": "2026-08-30",
+      "sources": [
+        "https://api.crossref.org/works/10.1162/pres.1995.4.4.403"
+      ],
+      "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+    },
+    "provenance": [
+      {
+        "source": "https://api.crossref.org/works/10.1162/pres.1995.4.4.403",
+        "discoveryMethod": "backward-citation",
+        "discoveredFromPublicationId": "frees-2007-prism",
+        "retrievedAt": "2026-08-30",
+        "notes": "Crossref metadata checked; this does not verify technique claims. BibTeX generated from these metadata, not publisher-exported."
+      }
+    ],
+    "access": "metadata-only",
+    "legacyMetadata": {
+      "crossrefDates": {
+        "issued": {
+          "date-parts": [
+            [
+              1995,
+              1
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1995,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1995,
+              1
+            ]
+          ]
+        }
+      }
+    }
+  }
+]

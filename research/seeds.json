@@ -1,0 +1,87 @@
+{
+  "runId": "seed-corpus-2026-08-30",
+  "maxBackwardCandidates": 12,
+  "maxForwardCandidates": 5,
+  "maxDepth": 2,
+  "seeds": [
+    {
+      "id": "seed-argelaguet-2013",
+      "doi": "10.1016/j.cag.2012.12.003",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0097849312001793"
+    },
+    {
+      "id": "seed-weise-2019",
+      "doi": "10.1145/3340764.3340777",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3340764.3340777"
+    },
+    {
+      "id": "seed-3dui-2024",
+      "doi": "10.3390/electronics13030600",
+      "url": "https://www.mdpi.com/2079-9292/13/3/600"
+    },
+    {
+      "id": "seed-yu-2024",
+      "doi": "10.1145/3706417",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706417"
+    }
+  ],
+  "priorityTerms": [
+    "go-go",
+    "prism",
+    "worlds in miniature",
+    "ray",
+    "selection",
+    "manipulation"
+  ],
+  "selectedReferences": [
+    {
+      "id": "legacy-paper-go-go",
+      "doi": "10.1145/237091.237102",
+      "from": "seed-weise-2019"
+    },
+    {
+      "id": "legacy-paper-homer",
+      "doi": "10.1145/253284.253301",
+      "from": "seed-3dui-2024"
+    },
+    {
+      "id": "frees-2005-prism",
+      "doi": "10.1109/VR.2005.1492759",
+      "from": "seed-yu-2024"
+    },
+    {
+      "id": "frees-2007-prism",
+      "doi": "10.1145/1229855.1229857",
+      "from": "seed-weise-2019"
+    },
+    {
+      "id": "stoakley-1995-wim",
+      "doi": "10.1145/223904.223938",
+      "from": "seed-weise-2019"
+    },
+    {
+      "id": "legacy-paper-aperture-selection",
+      "doi": "10.1145/237091.237105",
+      "from": "seed-yu-2024"
+    },
+    {
+      "id": "legacy-paper-cone-casting",
+      "doi": "10.1016/0097-8493(94)90062-0",
+      "from": "seed-weise-2019"
+    },
+    {
+      "id": "legacy-paper-bubble-raycasting",
+      "doi": "10.1109/VR46266.2020.00021",
+      "from": "seed-yu-2024"
+    },
+    {
+      "id": "mapes-1995-twohanded",
+      "doi": "10.1162/pres.1995.4.4.403",
+      "from": "frees-2007-prism",
+      "depth": 2
+    }
+  ],
+  "forwardFrom": [
+    "10.1109/VR.2005.1492759"
+  ]
+}

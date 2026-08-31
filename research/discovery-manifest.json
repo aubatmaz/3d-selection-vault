@@ -1,0 +1,310 @@
+{
+  "runId": "seed-corpus-2026-08-30",
+  "date": "2026-08-30",
+  "requests": [
+    {
+      "id": "seed-argelaguet-2013",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cag.2012.12.003",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "seed",
+      "discoveredFromPublicationId": null,
+      "referenceCount": 108
+    },
+    {
+      "id": "seed-weise-2019",
+      "url": "https://api.crossref.org/works/10.1145%2F3340764.3340777",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "seed",
+      "discoveredFromPublicationId": null,
+      "referenceCount": 53
+    },
+    {
+      "id": "seed-3dui-2024",
+      "url": "https://api.crossref.org/works/10.3390%2Felectronics13030600",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "seed",
+      "discoveredFromPublicationId": null,
+      "referenceCount": 99
+    },
+    {
+      "id": "seed-yu-2024",
+      "url": "https://api.crossref.org/works/10.1145%2F3706417",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "seed",
+      "discoveredFromPublicationId": null,
+      "referenceCount": 190
+    },
+    {
+      "id": "legacy-paper-go-go",
+      "url": "https://api.crossref.org/works/10.1145%2F237091.237102",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-weise-2019",
+      "referenceCount": 0
+    },
+    {
+      "id": "legacy-paper-homer",
+      "url": "https://api.crossref.org/works/10.1145%2F253284.253301",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-3dui-2024",
+      "referenceCount": 0
+    },
+    {
+      "id": "frees-2005-prism",
+      "url": "https://api.crossref.org/works/10.1109%2FVR.2005.1492759",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-yu-2024",
+      "referenceCount": 27
+    },
+    {
+      "id": "frees-2007-prism",
+      "url": "https://api.crossref.org/works/10.1145%2F1229855.1229857",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-weise-2019",
+      "referenceCount": 43
+    },
+    {
+      "id": "stoakley-1995-wim",
+      "url": "https://api.crossref.org/works/10.1145%2F223904.223938",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-weise-2019",
+      "referenceCount": 0
+    },
+    {
+      "id": "legacy-paper-aperture-selection",
+      "url": "https://api.crossref.org/works/10.1145%2F237091.237105",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-yu-2024",
+      "referenceCount": 0
+    },
+    {
+      "id": "legacy-paper-cone-casting",
+      "url": "https://api.crossref.org/works/10.1016%2F0097-8493%2894%2990062-0",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-weise-2019",
+      "referenceCount": 13
+    },
+    {
+      "id": "legacy-paper-bubble-raycasting",
+      "url": "https://api.crossref.org/works/10.1109%2FVR46266.2020.00021",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "seed-yu-2024",
+      "referenceCount": 0
+    },
+    {
+      "id": "mapes-1995-twohanded",
+      "url": "https://api.crossref.org/works/10.1162%2Fpres.1995.4.4.403",
+      "status": "metadata-retrieved",
+      "discoveryMethod": "backward-citation",
+      "discoveredFromPublicationId": "frees-2007-prism",
+      "referenceCount": 0
+    }
+  ],
+  "backwardCandidates": [
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "issue": "1",
+        "key": "10.1016/j.cag.2012.12.003_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.cag.2006.09.003",
+        "article-title": "Anisomorphic ray-casting manipulation for interacting with 2D GUIs",
+        "volume": "31",
+        "author": "Andujar",
+        "year": "2007",
+        "journal-title": "Comput Graph"
+      },
+      "score": 2,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andujar C, Argelaguet F. Virtual pads: decoupling motor space and visual space for flexible manipulation of 2D windows within VEs. In: IEEE symposium on 3D user interfaces, 3DUI'07; 2007.",
+        "DOI": "10.1109/3DUI.2007.340781"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib4",
+        "unstructured": "Argelaguet F. Pointing facilitation techniques for 3D object selection on virtual environments. PhD thesis, Universitat Polit\u00e8cnica de Catalunya; 2011."
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Argelaguet F., Andujar C. Improving 3D selection in immersive environments through expanding targets. In: SG'08: proceedings of the 9th international symposium on smart graphics; 2008. p. 45\u201357.",
+        "DOI": "10.1007/978-3-540-85412-8_5"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "issue": "6",
+        "key": "10.1016/j.cag.2012.12.003_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1109/MCG.2009.117",
+        "article-title": "Efficient 3D pointing selection in cluttered virtual environments",
+        "volume": "29",
+        "author": "Argelaguet",
+        "year": "2009",
+        "journal-title": "IEEE Comput Graph Appl"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Argelaguet F, Andujar C, Trueba R. Overcoming eye-hand visibility mismatch in 3D pointing selection. InL VRST '08: proceedings of the 2008 ACM symposium on virtual reality software and technology; 2008. p. 43\u20136.",
+        "DOI": "10.1145/1450579.1450588"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib12",
+        "unstructured": "Boeck JD, Weyer TD, Raymaekers C, Coninx K. Using the non-dominant hand for selection in 3D. In: IEEE symposium on 3D user interfaces (3DUI '06); 2006. p. 53\u20138."
+      },
+      "score": 2,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "issue": "4",
+        "key": "10.1016/j.cag.2012.12.003_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "634",
+        "DOI": "10.1109/TVCG.2012.40",
+        "article-title": "Dense and dynamic 3D selection for game-based virtual environments",
+        "volume": "18",
+        "author": "Cashion",
+        "year": "2012",
+        "journal-title": "IEEE Trans Visualization Comput Graph"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib30",
+        "unstructured": "de Haan G, Koutek M, Post FH. IntenSelect: using dynamic object rating for assisting 3D object selection; 2005. p. 201\u20139."
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Forsberg A, Herndon K, Zeleznik R. Aperture based selection for immersive virtual environments. In: UIST '96: proceedings of the 9th annual ACM symposium on user interface software and technology; 1996. p. 95\u20136.",
+        "DOI": "10.1145/237091.237105"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "key": "10.1016/j.cag.2012.12.003_bib37",
+        "first-page": "99",
+        "article-title": "Precise and rapid interaction thought scaled manipulation in immersive virtual environments",
+        "author": "Frees",
+        "year": "2005",
+        "journal-title": "IEEE Virtual Reality"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    },
+    {
+      "from": "seed-argelaguet-2013",
+      "reference": {
+        "issue": "1",
+        "key": "10.1016/j.cag.2012.12.003_bib38",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/1229855.1229857",
+        "article-title": "PRISM interaction for enhancing control in immersive virtual environments",
+        "volume": "14",
+        "author": "Frees",
+        "year": "2007",
+        "journal-title": "ACM Trans Comput\u2013Hum Interact"
+      },
+      "score": 1,
+      "status": "requires-content-review"
+    }
+  ],
+  "forwardCandidates": [
+    {
+      "discoveredFromDOI": "10.1109/VR.2005.1492759",
+      "doi": "https://doi.org/10.1145/3411764.3445343",
+      "title": "Gaze-Supported 3D Object Manipulation in Virtual Reality",
+      "year": 2021,
+      "source": "https://api.openalex.org/works?filter=cites%3AW3151601593&per-page=5",
+      "status": "requires-relevance-and-content-review"
+    },
+    {
+      "discoveredFromDOI": "10.1109/VR.2005.1492759",
+      "doi": "https://doi.org/10.1145/3491102.3517706",
+      "title": "Beyond Being Real: A Sensorimotor Control Perspective on Interactions in Virtual Reality",
+      "year": 2022,
+      "source": "https://api.openalex.org/works?filter=cites%3AW3151601593&per-page=5",
+      "status": "requires-relevance-and-content-review"
+    },
+    {
+      "discoveredFromDOI": "10.1109/VR.2005.1492759",
+      "doi": "https://doi.org/10.1145/3706417",
+      "title": "Object Selection and Manipulation in VR Headsets: Research Challenges, Solutions, and Success Measurements",
+      "year": 2024,
+      "source": "https://api.openalex.org/works?filter=cites%3AW3151601593&per-page=5",
+      "status": "requires-relevance-and-content-review"
+    },
+    {
+      "discoveredFromDOI": "10.1109/VR.2005.1492759",
+      "doi": "https://doi.org/10.1145/3698129",
+      "title": "Experimental Analysis of Freehand Multi-object Selection Techniques in Virtual Reality Head-Mounted Displays",
+      "year": 2024,
+      "source": "https://api.openalex.org/works?filter=cites%3AW3151601593&per-page=5",
+      "status": "requires-relevance-and-content-review"
+    },
+    {
+      "discoveredFromDOI": "10.1109/VR.2005.1492759",
+      "doi": "https://doi.org/10.1145/3689434",
+      "title": "HeadShift: Head Pointing with Dynamic Control-Display Gain",
+      "year": 2024,
+      "source": "https://api.openalex.org/works?filter=cites%3AW3151601593&per-page=5",
+      "status": "requires-relevance-and-content-review"
+    }
+  ],
+  "limits": {
+    "maxBackwardCandidates": 12,
+    "maxForwardCandidates": 5,
+    "maxDepth": 2
+  }
+}

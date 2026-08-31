@@ -1,0 +1,25 @@
+{
+  "publicationsAdded": 8,
+  "publicationsEnriched": 5,
+  "duplicatesAvoided": 5,
+  "existingTechniquesMatched": 8,
+  "existingTechniqueIds": [
+    "go-go",
+    "raycasting",
+    "aperture-selection",
+    "cone-casting",
+    "squad",
+    "homer",
+    "tulip-menu",
+    "bubble-raycasting"
+  ],
+  "newTechniques": [
+    "prism",
+    "worlds-in-miniature"
+  ],
+  "aliasesAdded": 2,
+  "relationshipsAdded": 2,
+  "techniquePublicationLinksAdded": 15,
+  "backwardCitationEdges": 9,
+  "forwardCitationEdges": 1
+}

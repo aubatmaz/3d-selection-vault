@@ -1,0 +1,1 @@
+CREATE INDEX `idx_import_candidates_status_created` ON `import_candidates` (`status`,`created_at`,`id`);

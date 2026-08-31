@@ -1,0 +1,646 @@
+{
+  "surveyId": "seed-argelaguet-2013",
+  "doi": "10.1016/j.cag.2012.12.003",
+  "sourceUrl": "https://www.cs.ucf.edu/courses/cap6121/spr15/readings/3Dselection.pdf",
+  "scope": "All 31 named entries in Table 1 (p. 123), plus World-in-Miniature discussed in section 4.3 (p. 131). Not exhaustive coverage of every supporting design pattern or bibliography item.",
+  "rows": [
+    {
+      "surveyName": "Virtual-hand",
+      "techniqueId": "virtual-hand",
+      "reference": 64,
+      "mechanismLabel": "Hand avatar",
+      "mechanism": "touching"
+    },
+    {
+      "surveyName": "Go–go",
+      "techniqueId": "go-go",
+      "reference": 75,
+      "mechanismLabel": "Extended hand avatar",
+      "mechanism": "touching"
+    },
+    {
+      "surveyName": "Bubble-cursor",
+      "techniqueId": "bubble-cursor",
+      "reference": 93,
+      "mechanismLabel": "Adaptive sphere",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Silk cursor",
+      "techniqueId": "silk-cursor",
+      "reference": 107,
+      "mechanismLabel": "Transparent box",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Raycasting",
+      "techniqueId": "raycasting",
+      "reference": 63,
+      "mechanismLabel": "Straight ray",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Virtual pads",
+      "techniqueId": "virtual-pads",
+      "reference": 2,
+      "mechanismLabel": "Decoupled pointing plane",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Direct image plane",
+      "techniqueId": "direct-image-plane",
+      "reference": 53,
+      "mechanismLabel": "Screen-normal ray",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Raycasting from the eye",
+      "techniqueId": "raycasting-from-eye",
+      "reference": 8,
+      "mechanismLabel": "Eye-origin wrist-oriented ray",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "View finder",
+      "techniqueId": "view-finder",
+      "reference": 7,
+      "mechanismLabel": "Eye-origin ray feedback",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Eye-gazed selection",
+      "techniqueId": "eye-gaze-selection",
+      "reference": 87,
+      "mechanismLabel": "Gaze-directed ray",
+      "mechanism": "gaze"
+    },
+    {
+      "surveyName": "Occlusion selection",
+      "techniqueId": "occlusion-selection",
+      "reference": 73,
+      "mechanismLabel": "Eye-to-hand ray",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "One-eyed cursor",
+      "techniqueId": "one-eyed-cursor",
+      "reference": 98,
+      "mechanismLabel": "Monocular cursor",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Two-handed pointing",
+      "techniqueId": "two-handed-pointing",
+      "reference": 64,
+      "mechanismLabel": "Two-hand positional ray",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "IntenSelect",
+      "techniqueId": "intenselect",
+      "reference": 30,
+      "mechanismLabel": "Behavior-rated ray",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Smart ray",
+      "techniqueId": "smart-ray",
+      "reference": 41,
+      "mechanismLabel": "Multiple pointing directions",
+      "mechanism": "disambiguation"
+    },
+    {
+      "surveyName": "Sticky ray",
+      "techniqueId": "sticky-ray",
+      "reference": 85,
+      "mechanismLabel": "Heuristic cone",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Flashlight",
+      "techniqueId": "cone-casting",
+      "reference": 54,
+      "mechanismLabel": "Cone-axis proximity",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Sense shapes",
+      "techniqueId": "sense-shapes",
+      "reference": 68,
+      "mechanismLabel": "Behavior-rated selection volume",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Shadow cone selection",
+      "techniqueId": "shadow-cone-selection",
+      "reference": 84,
+      "mechanismLabel": "Manually disambiguated cone",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Probabilistic pointing",
+      "techniqueId": "probabilistic-pointing",
+      "reference": 80,
+      "mechanismLabel": "Probability-ranked frustum",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Enhanced cone selection",
+      "techniqueId": "enhanced-cone-selection",
+      "reference": 83,
+      "mechanismLabel": "Behavior-rated cone",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "Aperture",
+      "techniqueId": "aperture-selection",
+      "reference": 36,
+      "mechanismLabel": "Adjustable eye-origin cone",
+      "mechanism": "volume-based"
+    },
+    {
+      "surveyName": "iSith",
+      "techniqueId": "isith",
+      "reference": 71,
+      "mechanismLabel": "Two-ray intersection",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Flexible pointing",
+      "techniqueId": "flexible-pointer",
+      "reference": 69,
+      "mechanismLabel": "Bimanual curved ray",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Depth ray",
+      "techniqueId": "depth-ray",
+      "reference": 41,
+      "mechanismLabel": "Depth-positioned ray cursor",
+      "mechanism": "disambiguation"
+    },
+    {
+      "surveyName": "Lock ray",
+      "techniqueId": "lock-ray",
+      "reference": 41,
+      "mechanismLabel": "Constrained ray cursor",
+      "mechanism": "disambiguation"
+    },
+    {
+      "surveyName": "Flow ray",
+      "techniqueId": "flow-ray",
+      "reference": 41,
+      "mechanismLabel": "Ray with secondary menu",
+      "mechanism": "disambiguation"
+    },
+    {
+      "surveyName": "Friction surfaces",
+      "techniqueId": "friction-surfaces",
+      "reference": 1,
+      "mechanismLabel": "Target-dependent pointing gain",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "PRISM",
+      "techniqueId": "prism",
+      "reference": 38,
+      "mechanismLabel": "Velocity-dependent pointing gain",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "Adaptative pointing",
+      "techniqueId": "adaptive-pointing",
+      "reference": 48,
+      "mechanismLabel": "Velocity/offset-dependent pointing gain",
+      "mechanism": "pointing"
+    },
+    {
+      "surveyName": "SQUAD",
+      "techniqueId": "squad",
+      "reference": 49,
+      "mechanismLabel": "Progressive four-way refinement",
+      "mechanism": "refinement"
+    },
+    {
+      "surveyName": "World-in-Miniature",
+      "techniqueId": "worlds-in-miniature",
+      "reference": 86,
+      "mechanismLabel": "Miniature scene view",
+      "mechanism": "touching"
+    }
+  ],
+  "sources": [
+    {
+      "number": 1,
+      "title": "Anisomorphic ray-casting manipulation for interacting with 2D GUIs",
+      "authors": [
+        "Carlos Andujar",
+        "Ferran Argelaguet"
+      ],
+      "year": 2007,
+      "venue": "Computers &amp; Graphics",
+      "doi": "10.1016/j.cag.2006.09.003",
+      "metadataSource": "https://api.crossref.org/works/10.1016/j.cag.2006.09.003",
+      "lookupStatus": "exact title and year match",
+      "crossrefType": "journal-article"
+    },
+    {
+      "number": 2,
+      "title": "Virtual pads: decoupling motor space and visual space for flexible manipulation of 2D windows within VEs",
+      "authors": [
+        "C. Andujar",
+        "F. Argelaguet"
+      ],
+      "year": 2007,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 7,
+      "title": "Visual feedback techniques for virtual pointing on stereoscopic displays",
+      "authors": [
+        "F. Argelaguet",
+        "C. Andujar"
+      ],
+      "year": 2009,
+      "venue": "ACM VRST",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 8,
+      "title": "Overcoming eye-hand visibility mismatch in 3D pointing selection",
+      "authors": [
+        "F. Argelaguet",
+        "C. Andujar",
+        "R. Trueba"
+      ],
+      "year": 2008,
+      "venue": "ACM VRST",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 27,
+      "title": "Gaze- vs. hand-based pointing in virtual environments",
+      "authors": [
+        "Nathan Cournia",
+        "John D. Smith",
+        "Andrew T. Duchowski"
+      ],
+      "year": 2003,
+      "venue": "CHI '03 extended abstracts on Human factors in computer systems  - CHI '03",
+      "doi": "10.1145/765978.765982",
+      "metadataSource": "https://api.crossref.org/works/10.1145/765978.765982",
+      "lookupStatus": "exact title and year match",
+      "crossrefType": "proceedings-article"
+    },
+    {
+      "number": 30,
+      "title": "IntenSelect: using dynamic object rating for assisting 3D object selection",
+      "authors": [
+        "G. de Haan",
+        "M. Koutek",
+        "F. H. Post"
+      ],
+      "year": 2005,
+      "venue": null,
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 36,
+      "title": "Aperture based selection for immersive virtual environments",
+      "authors": [
+        "A. Forsberg",
+        "K. Herndon",
+        "R. Zeleznik"
+      ],
+      "year": 1996,
+      "venue": "ACM UIST",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-aperture-selection"
+    },
+    {
+      "number": 38,
+      "title": "PRISM interaction for enhancing control in immersive virtual environments",
+      "authors": [
+        "S. Frees",
+        "G. D. Kessler",
+        "E. Kay"
+      ],
+      "year": 2007,
+      "venue": "ACM Transactions on Computer-Human Interaction",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "frees-2007-prism"
+    },
+    {
+      "number": 41,
+      "title": "The design and evaluation of selection techniques for 3D volumetric displays",
+      "authors": [
+        "Tovi Grossman",
+        "Ravin Balakrishnan"
+      ],
+      "year": 2006,
+      "venue": "Proceedings of the 19th annual ACM symposium on User interface software and technology",
+      "doi": "10.1145/1166253.1166257",
+      "metadataSource": "https://api.crossref.org/works/10.1145/1166253.1166257",
+      "lookupStatus": "exact title and year match",
+      "existingId": "legacy-paper-depth-ray",
+      "crossrefType": "proceedings-article"
+    },
+    {
+      "number": 48,
+      "title": "Adaptive pointing - design and evaluation of a precision enhancing technique for absolute pointing devices",
+      "authors": [
+        "W. König",
+        "J. Gerken",
+        "S. Dierdorf",
+        "H. Reiterer"
+      ],
+      "year": 2009,
+      "venue": "INTERACT",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 49,
+      "title": "Rapid and accurate 3D selection by progressive refinement",
+      "authors": [
+        "R. Kopper",
+        "F. Bacim",
+        "D. A. Bowman"
+      ],
+      "year": 2011,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-squad"
+    },
+    {
+      "number": 53,
+      "title": "Evaluation of pointing techniques for ray casting selection in virtual environments",
+      "authors": [
+        "S. Lee",
+        "J. Seo",
+        "G. J. Kim",
+        "C.-M. Park"
+      ],
+      "year": 2003,
+      "venue": "Third International Conference on Virtual Reality and Its Application in Industry",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 54,
+      "title": "JDcad: a highly interactive 3D modeling system",
+      "authors": [
+        "J. Liang",
+        "M. Green"
+      ],
+      "year": 1994,
+      "venue": "Computers & Graphics",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-cone-casting"
+    },
+    {
+      "number": 63,
+      "title": "Virtual environment interaction techniques",
+      "authors": [
+        "M. R. Mine"
+      ],
+      "year": 1995,
+      "venue": "University of North Carolina at Chapel Hill",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-raycasting"
+    },
+    {
+      "number": 64,
+      "title": "Moving objects in space: exploiting proprioception in virtual-environment interaction",
+      "authors": [
+        "M. R. Mine",
+        "F. P. Brooks Jr.",
+        "C. Sequin"
+      ],
+      "year": 1997,
+      "venue": "ACM SIGGRAPH",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-virtual-hand"
+    },
+    {
+      "number": 68,
+      "title": "SenseShapes: using statistical geometry for object selection in a multimodal augmented reality system",
+      "authors": [
+        "A. Olwal",
+        "H. Benko",
+        "S. Feiner"
+      ],
+      "year": 2003,
+      "venue": "IEEE/ACM ISMAR",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 69,
+      "title": "The flexible pointer: an interaction technique for selection in augmented and virtual reality",
+      "authors": [
+        "A. Olwal",
+        "S. Feiner"
+      ],
+      "year": 2003,
+      "venue": "UIST Conference Supplement",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-flexible-pointer"
+    },
+    {
+      "number": 71,
+      "title": "ISith - intersection-based spatial interaction for two hands",
+      "authors": [],
+      "year": 2006,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 73,
+      "title": "Image plane interaction techniques in 3D immersive environments",
+      "authors": [
+        "J. S. Pierce",
+        "A. Forsberg",
+        "M. J. Conway",
+        "S. Hong",
+        "R. C. Zeleznik",
+        "M. R. Mine"
+      ],
+      "year": 1997,
+      "venue": "ACM I3D",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 75,
+      "title": "The Go-Go interaction technique: non-linear mapping for direct manipulation in VR",
+      "authors": [
+        "I. Poupyrev",
+        "M. Billinghurst",
+        "S. Weghorst",
+        "T. Ichikawa"
+      ],
+      "year": 1996,
+      "venue": "ACM UIST",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-go-go"
+    },
+    {
+      "number": 80,
+      "title": "Toward disambiguating multiple selections for frustum-based pointing",
+      "authors": [
+        "G. Schmidt",
+        "Y. Baillot",
+        "D. G. Brown",
+        "E. B. Tomlin",
+        "J. E. Swan II"
+      ],
+      "year": 2006,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 83,
+      "title": "Towards a general model for selection in virtual environments",
+      "authors": [
+        "A. Steed"
+      ],
+      "year": 2006,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 84,
+      "title": "3D selection strategies for head tracked and non-head tracked operation of spatially immersive displays",
+      "authors": [
+        "A. Steed",
+        "C. Parker"
+      ],
+      "year": 2004,
+      "venue": "Immersive Projection Technology Workshop",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 85,
+      "title": "Object selection in virtual environments with an improved virtual pointer metaphor",
+      "authors": [
+        "F. Steinicke",
+        "T. Ropinski",
+        "K. Hinrichs"
+      ],
+      "year": 2004,
+      "venue": "ICCVG",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "not matched"
+    },
+    {
+      "number": 86,
+      "title": "Virtual reality on a WIM: interactive worlds in miniature",
+      "authors": [
+        "R. Stoakley",
+        "M. J. Conway",
+        "R. Pausch"
+      ],
+      "year": 1995,
+      "venue": "ACM CHI",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "stoakley-1995-wim"
+    },
+    {
+      "number": 87,
+      "title": "Interacting with eye movements in virtual environments",
+      "authors": [
+        "V. Tanriverdi",
+        "R. J. K. Jacob"
+      ],
+      "year": 2000,
+      "venue": "ACM CHI",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 93,
+      "title": "Exploring the effects of environment density and target visibility on object selection in 3D virtual environments",
+      "authors": [
+        "L. Vanacken",
+        "T. Grossman",
+        "K. Coninx"
+      ],
+      "year": 2007,
+      "venue": "IEEE Symposium on 3D User Interfaces",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-bubble-cursor"
+    },
+    {
+      "number": 98,
+      "title": "Selection using a one-eyed cursor in a fish tank VR environment",
+      "authors": [
+        "C. Ware",
+        "K. Lowther"
+      ],
+      "year": 1997,
+      "venue": "ACM Transactions on Computer-Human Interaction",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError"
+    },
+    {
+      "number": 107,
+      "title": "The Silk Cursor: investigating transparency for 3D target acquisition",
+      "authors": [
+        "S. Zhai",
+        "W. Buxton",
+        "P. Milgram"
+      ],
+      "year": 1994,
+      "venue": "ACM CHI",
+      "doi": null,
+      "metadataSource": "survey bibliography",
+      "lookupStatus": "HTTPError",
+      "existingId": "legacy-paper-silk-cursor"
+    }
+  ]
+}

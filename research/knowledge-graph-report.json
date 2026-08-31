@@ -1,0 +1,23 @@
+{
+  "techniques": 30,
+  "publications": 34,
+  "techniquePublicationAssociations": 43,
+  "citationDiscoveryRecords": 10,
+  "citationEdges": 9,
+  "evidenceBackedSemanticPublicationRelationships": 0,
+  "publicationRelationshipsByType": {
+    "cites": 9
+  },
+  "techniqueRelationshipsBySource": {
+    "legacy-editorial": 72,
+    "machine-curated": 2
+  },
+  "similarities": 315,
+  "openCurationItems": 48,
+  "claims": 2,
+  "candidateLiterature": 4,
+  "humanVerifiedRecordsAndClaims": 0,
+  "curationDecisionsInSeed": 0,
+  "testsPassed": 47,
+  "existingFullLintDiagnostics": 19
+}
